@@ -7,18 +7,17 @@
 <link rel="icon" type="image/png" href="https://static-cdn.jtvnw.net/jtv_user_pictures/f6b72ce4-37d9-4ab7-ad5b-5eae302143b4-profile_image-150x150.png">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap">
 <title>bijavix Webpage</title>
-
-<head>
-  <noscript class="sticky;">
-  <h2 style="background-color:yellow;font-size: 0.75rem;">
-    This page works better with JavaScript Enabled!
-  </h2>
+<head class="sticky;">
+  <noscript>
+    <h2 style="background-color:yellow;font-size: 0.75rem;">
+      This page works better with JavaScript Enabled!
+    </h2>
   </noscript>
-  <h1 class="sticky;">bijavix</h1>
+  <h1>bijavix</h1>
 </head>
 <body>
   <h2>
@@ -38,72 +37,74 @@
   </div>
 </footer>
 <style>
-  html {
-    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D%22100%25%22%20height%3D%22100%25%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22grad%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%22142%22%20y1%3D%220%22%20x2%3D%22222%22%20y2%3D%221240%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22rgb(255%2C99%2C72)%22%20%2F%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22rgb(106%2C90%2C205)%22%20%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22url(%23grad)%22%20%2F%3E%0A%20%20%3C%2Fsvg%3E");
-    background-attachment: fixed;
-    background-size: cover;
-    text-align: center;
-    overflow: hidden;
-    cursor: crosshair;
-    animation-duration: 2s;
-    animation-name: fadeIn;
-    font-size: 20px;
-    font-style: normal;
-  }
+html {
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D%22100%25%22%20height%3D%22100%25%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22grad%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%22142%22%20y1%3D%220%22%20x2%3D%22222%22%20y2%3D%221240%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22rgb(255%2C99%2C72)%22%20%2F%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22rgb(106%2C90%2C205)%22%20%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22url(%23grad)%22%20%2F%3E%0A%20%20%3C%2Fsvg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  cursor: crosshair;
+  animation-duration: 2.5s;
+  animation-name: fadeIn;
+  overflow: hidden;
+  font-size: 24px;
+  font-size:calc(95% + 0.4vw);
+  font-style: normal;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 2;
+}
 
-  body {
-    margin: 0 auto;
-    width: calc(42%);
-    padding: calc(8%);
-  }
+body {
+  width: calc(42%);
+}
 
-  footer {
-    font-family: 'Permanent Marker';
-    justify-content: center;
-    font-size: 0.75rem;
-    letter-spacing: 0.175em;
-    line-height: 2;
-    font-weight: 250;
-  }
+footer {
+  font-family: 'Permanent Marker';
+  font-size: 0.75rem;
+  letter-spacing: 0.175em;
+  font-weight: 250;
+}
 
-  h1 {
-    font-family: 'Permanent Marker';
-    font-size: 2.5rem;
-    letter-spacing: 0.255em;
-    line-height: 2;
-    font-weight: 400;
-    color:#705ac7;
-  }
+h1 {
+  font-family: 'Permanent Marker';
+  font-size: 2.5rem;
+  letter-spacing: 0.255em;
+  font-weight: 400;
+  color:#705ac7;
+}
 
-  h2 {
-    font-family: 'Source Code Pro';
-    font-size: 2.25rem;
-    letter-spacing: 0.200em;
-    line-height: 2;
-    font-weight: 300;
-  }
+h2 {
+  font-family: 'Source Code Pro';
+  font-size: 2.25rem;
+  letter-spacing: 0.200em;
+  font-weight: 300;
+}
 
-  a {
-    color: var(--rndColor);
-  }
+a {
+  color: var(--rndColor);
+}
 
-  a:hover {
-    color: #1900ff;
-    cursor: pointer;
-    box-shadow: 8px 6px 8px 6px rgba(0, 0, 0, 0.14);
-    border-radius: 12px;
-  }
+a:hover {
+  color: #88a8ff;
+  cursor: pointer;
+  box-shadow: 8px 6px 8px 6px rgba(0, 0, 0, 0.14);
+  border-radius: 12px;
+}
 
-  .sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-  }
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
 
-  @keyframes fadeIn {
-   0% {opacity: 0;}
-   100% {opacity: 1;}
-  } 
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+} 
 
 </style>
 <script>

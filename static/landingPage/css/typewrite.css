@@ -1,0 +1,4210 @@
+@charset "UTF-8";
+.typewriter {
+  display: block;
+  font-family: monospace;
+  font-size: 125%;
+  width: 100%;
+  position: relative;
+}
+.typewriter:before {
+  content: "~$ ";
+  color: white;
+  filter: drop-shadow(0 0 3px rgba(255, 255, 255, 0.3));
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.typewriter > .placeholder {
+  display: block;
+  appearance: none;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  color: white;
+  filter: drop-shadow(0 0 3px rgba(255, 255, 255, 0.3));
+  padding-left: 2ch;
+}
+.typewriter > .placeholder::before {
+  content: "​";
+  content: "​"/"yet another developer?";
+  white-space: break-spaces;
+  will-change: content;
+  animation: typed-0 122.4s linear 1s infinite forwards;
+}
+.typewriter > .placeholder::after {
+  content: "​";
+  position: relative;
+  display: inline-block;
+  padding-right: 2px;
+  border-right: 2px solid currentColor;
+  white-space: nowrap;
+  animation: typed-0-caret 0.75s linear 1s infinite forwards;
+}
+@keyframes typed-0 {
+  0%, 0.0534662309% {
+    content: "​y";
+    content: "​y"/"yet another developer?";
+  }
+  0.0544662309%, 0.1079324619% {
+    content: "​ye";
+    content: "​ye"/"yet another developer?";
+  }
+  0.1089324619%, 0.1623986928% {
+    content: "​yet";
+    content: "​yet"/"yet another developer?";
+  }
+  0.1633986928%, 0.2168649237% {
+    content: "​yet ";
+    content: "​yet "/"yet another developer?";
+  }
+  0.2178649237%, 0.2713311547% {
+    content: "​yet a";
+    content: "​yet a"/"yet another developer?";
+  }
+  0.2723311547%, 0.3257973856% {
+    content: "​yet an";
+    content: "​yet an"/"yet another developer?";
+  }
+  0.3267973856%, 0.3802636166% {
+    content: "​yet ano";
+    content: "​yet ano"/"yet another developer?";
+  }
+  0.3812636166%, 0.4347298475% {
+    content: "​yet anot";
+    content: "​yet anot"/"yet another developer?";
+  }
+  0.4357298475%, 0.4891960784% {
+    content: "​yet anoth";
+    content: "​yet anoth"/"yet another developer?";
+  }
+  0.4901960784%, 0.5436623094% {
+    content: "​yet anothe";
+    content: "​yet anothe"/"yet another developer?";
+  }
+  0.5446623094%, 0.5981285403% {
+    content: "​yet another";
+    content: "​yet another"/"yet another developer?";
+  }
+  0.5991285403%, 0.6525947712% {
+    content: "​yet another ";
+    content: "​yet another "/"yet another developer?";
+  }
+  0.6535947712%, 0.7070610022% {
+    content: "​yet another d";
+    content: "​yet another d"/"yet another developer?";
+  }
+  0.7080610022%, 0.7615272331% {
+    content: "​yet another de";
+    content: "​yet another de"/"yet another developer?";
+  }
+  0.7625272331%, 0.8159934641% {
+    content: "​yet another dev";
+    content: "​yet another dev"/"yet another developer?";
+  }
+  0.8169934641%, 0.870459695% {
+    content: "​yet another deve";
+    content: "​yet another deve"/"yet another developer?";
+  }
+  0.871459695%, 0.9249259259% {
+    content: "​yet another devel";
+    content: "​yet another devel"/"yet another developer?";
+  }
+  0.9259259259%, 0.9793921569% {
+    content: "​yet another develo";
+    content: "​yet another develo"/"yet another developer?";
+  }
+  0.9803921569%, 1.0338583878% {
+    content: "​yet another develop";
+    content: "​yet another develop"/"yet another developer?";
+  }
+  1.0348583878%, 1.0883246187% {
+    content: "​yet another develope";
+    content: "​yet another develope"/"yet another developer?";
+  }
+  1.0893246187%, 1.1427908497% {
+    content: "​yet another developer";
+    content: "​yet another developer"/"yet another developer?";
+  }
+  1.1437908497%, 2.3301546841% {
+    content: "​yet another developer?";
+    content: "​yet another developer?"/"yet another developer?";
+  }
+  2.3311546841%, 2.3737276688% {
+    content: "​yet another developer";
+    content: "​yet another developer"/"yet another developer?";
+  }
+  2.3747276688%, 2.4173006536% {
+    content: "​yet another develope";
+    content: "​yet another develope"/"yet another developer?";
+  }
+  2.4183006536%, 2.4608736383% {
+    content: "​yet another develop";
+    content: "​yet another develop"/"yet another developer?";
+  }
+  2.4618736383%, 2.5044466231% {
+    content: "​yet another develo";
+    content: "​yet another develo"/"yet another developer?";
+  }
+  2.5054466231%, 2.5480196078% {
+    content: "​yet another devel";
+    content: "​yet another devel"/"yet another developer?";
+  }
+  2.5490196078%, 2.5915925926% {
+    content: "​yet another deve";
+    content: "​yet another deve"/"yet another developer?";
+  }
+  2.5925925926%, 2.6351655773% {
+    content: "​yet another dev";
+    content: "​yet another dev"/"yet another developer?";
+  }
+  2.6361655773%, 2.6787385621% {
+    content: "​yet another de";
+    content: "​yet another de"/"yet another developer?";
+  }
+  2.6797385621%, 2.7223115468% {
+    content: "​yet another d";
+    content: "​yet another d"/"yet another developer?";
+  }
+  2.7233115468%, 2.7658845316% {
+    content: "​yet another ";
+    content: "​yet another "/"yet another developer?";
+  }
+  2.7668845316%, 2.8094575163% {
+    content: "​yet another";
+    content: "​yet another"/"yet another developer?";
+  }
+  2.8104575163%, 2.8530305011% {
+    content: "​yet anothe";
+    content: "​yet anothe"/"yet another developer?";
+  }
+  2.8540305011%, 2.8966034858% {
+    content: "​yet anoth";
+    content: "​yet anoth"/"yet another developer?";
+  }
+  2.8976034858%, 2.9401764706% {
+    content: "​yet anot";
+    content: "​yet anot"/"yet another developer?";
+  }
+  2.9411764706%, 2.9837494553% {
+    content: "​yet ano";
+    content: "​yet ano"/"yet another developer?";
+  }
+  2.9847494553%, 3.0273224401% {
+    content: "​yet an";
+    content: "​yet an"/"yet another developer?";
+  }
+  3.0283224401%, 3.0708954248% {
+    content: "​yet a";
+    content: "​yet a"/"yet another developer?";
+  }
+  3.0718954248%, 3.1144684096% {
+    content: "​yet ";
+    content: "​yet "/"yet another developer?";
+  }
+  3.1154684096%, 3.1580413943% {
+    content: "​yet";
+    content: "​yet"/"yet another developer?";
+  }
+  3.1590413943%, 3.2016143791% {
+    content: "​ye";
+    content: "​ye"/"yet another developer?";
+  }
+  3.2026143791%, 3.2451873638% {
+    content: "​y";
+    content: "​y"/"yet another developer?";
+  }
+  3.2461873638%, 3.7898496732% {
+    content: "​";
+    content: "​"/"yet another developer?";
+  }
+  3.7908496732%, 3.8443159041% {
+    content: "​m";
+    content: "​m"/"yet another developer?";
+  }
+  3.8453159041%, 3.8987821351% {
+    content: "​ma";
+    content: "​ma"/"yet another developer?";
+  }
+  3.8997821351%, 3.953248366% {
+    content: "​may";
+    content: "​may"/"yet another developer?";
+  }
+  3.954248366%, 4.0077145969% {
+    content: "​mayb";
+    content: "​mayb"/"yet another developer?";
+  }
+  4.0087145969%, 4.0621808279% {
+    content: "​maybe";
+    content: "​maybe"/"yet another developer?";
+  }
+  4.0631808279%, 4.1166470588% {
+    content: "​maybe ";
+    content: "​maybe "/"yet another developer?";
+  }
+  4.1176470588%, 4.1711132898% {
+    content: "​maybe a";
+    content: "​maybe a"/"yet another developer?";
+  }
+  4.1721132898%, 4.2255795207% {
+    content: "​maybe a ";
+    content: "​maybe a "/"yet another developer?";
+  }
+  4.2265795207%, 4.2800457516% {
+    content: "​maybe a s";
+    content: "​maybe a s"/"yet another developer?";
+  }
+  4.2810457516%, 4.3345119826% {
+    content: "​maybe a sy";
+    content: "​maybe a sy"/"yet another developer?";
+  }
+  4.3355119826%, 4.3889782135% {
+    content: "​maybe a sys";
+    content: "​maybe a sys"/"yet another developer?";
+  }
+  4.3899782135%, 4.4434444444% {
+    content: "​maybe a sysa";
+    content: "​maybe a sysa"/"yet another developer?";
+  }
+  4.4444444444%, 4.4979106754% {
+    content: "​maybe a sysad";
+    content: "​maybe a sysad"/"yet another developer?";
+  }
+  4.4989106754%, 4.5523769063% {
+    content: "​maybe a sysadm";
+    content: "​maybe a sysadm"/"yet another developer?";
+  }
+  4.5533769063%, 4.6068431373% {
+    content: "​maybe a sysadmi";
+    content: "​maybe a sysadmi"/"yet another developer?";
+  }
+  4.6078431373%, 4.6613093682% {
+    content: "​maybe a sysadmin";
+    content: "​maybe a sysadmin"/"yet another developer?";
+  }
+  4.6623093682%, 5.8486732026% {
+    content: "​maybe a sysadmin?";
+    content: "​maybe a sysadmin?"/"yet another developer?";
+  }
+  5.8496732026%, 5.8922461874% {
+    content: "​maybe a sysadmin";
+    content: "​maybe a sysadmin"/"yet another developer?";
+  }
+  5.8932461874%, 5.9358191721% {
+    content: "​maybe a sysadmi";
+    content: "​maybe a sysadmi"/"yet another developer?";
+  }
+  5.9368191721%, 5.9793921569% {
+    content: "​maybe a sysadm";
+    content: "​maybe a sysadm"/"yet another developer?";
+  }
+  5.9803921569%, 6.0229651416% {
+    content: "​maybe a sysad";
+    content: "​maybe a sysad"/"yet another developer?";
+  }
+  6.0239651416%, 6.0665381264% {
+    content: "​maybe a sysa";
+    content: "​maybe a sysa"/"yet another developer?";
+  }
+  6.0675381264%, 6.1101111111% {
+    content: "​maybe a sys";
+    content: "​maybe a sys"/"yet another developer?";
+  }
+  6.1111111111%, 6.1536840959% {
+    content: "​maybe a sy";
+    content: "​maybe a sy"/"yet another developer?";
+  }
+  6.1546840959%, 6.1972570806% {
+    content: "​maybe a s";
+    content: "​maybe a s"/"yet another developer?";
+  }
+  6.1982570806%, 6.2408300654% {
+    content: "​maybe a ";
+    content: "​maybe a "/"yet another developer?";
+  }
+  6.2418300654%, 6.2844030501% {
+    content: "​maybe a";
+    content: "​maybe a"/"yet another developer?";
+  }
+  6.2854030501%, 6.3279760349% {
+    content: "​maybe ";
+    content: "​maybe "/"yet another developer?";
+  }
+  6.3289760349%, 6.3715490196% {
+    content: "​maybe";
+    content: "​maybe"/"yet another developer?";
+  }
+  6.3725490196%, 6.4151220044% {
+    content: "​mayb";
+    content: "​mayb"/"yet another developer?";
+  }
+  6.4161220044%, 6.4586949891% {
+    content: "​may";
+    content: "​may"/"yet another developer?";
+  }
+  6.4596949891%, 6.5022679739% {
+    content: "​ma";
+    content: "​ma"/"yet another developer?";
+  }
+  6.5032679739%, 6.5458409586% {
+    content: "​m";
+    content: "​m"/"yet another developer?";
+  }
+  6.5468409586%, 7.090503268% {
+    content: "​";
+    content: "​"/"yet another developer?";
+  }
+  7.091503268%, 7.1449694989% {
+    content: "​j";
+    content: "​j"/"yet another developer?";
+  }
+  7.1459694989%, 7.1994357298% {
+    content: "​ju";
+    content: "​ju"/"yet another developer?";
+  }
+  7.2004357298%, 7.2539019608% {
+    content: "​jus";
+    content: "​jus"/"yet another developer?";
+  }
+  7.2549019608%, 7.3083681917% {
+    content: "​just";
+    content: "​just"/"yet another developer?";
+  }
+  7.3093681917%, 7.3628344227% {
+    content: "​just ";
+    content: "​just "/"yet another developer?";
+  }
+  7.3638344227%, 7.4173006536% {
+    content: "​just t";
+    content: "​just t"/"yet another developer?";
+  }
+  7.4183006536%, 7.4717668845% {
+    content: "​just ta";
+    content: "​just ta"/"yet another developer?";
+  }
+  7.4727668845%, 7.5262331155% {
+    content: "​just tak";
+    content: "​just tak"/"yet another developer?";
+  }
+  7.5272331155%, 7.5806993464% {
+    content: "​just take";
+    content: "​just take"/"yet another developer?";
+  }
+  7.5816993464%, 7.6351655773% {
+    content: "​just take ";
+    content: "​just take "/"yet another developer?";
+  }
+  7.6361655773%, 7.6896318083% {
+    content: "​just take a";
+    content: "​just take a"/"yet another developer?";
+  }
+  7.6906318083%, 7.7440980392% {
+    content: "​just take a ";
+    content: "​just take a "/"yet another developer?";
+  }
+  7.7450980392%, 7.7985642702% {
+    content: "​just take a l";
+    content: "​just take a l"/"yet another developer?";
+  }
+  7.7995642702%, 7.8530305011% {
+    content: "​just take a lo";
+    content: "​just take a lo"/"yet another developer?";
+  }
+  7.8540305011%, 7.907496732% {
+    content: "​just take a loo";
+    content: "​just take a loo"/"yet another developer?";
+  }
+  7.908496732%, 7.961962963% {
+    content: "​just take a look";
+    content: "​just take a look"/"yet another developer?";
+  }
+  7.962962963%, 8.0164291939% {
+    content: "​just take a look ";
+    content: "​just take a look "/"yet another developer?";
+  }
+  8.0174291939%, 8.0708954248% {
+    content: "​just take a look a";
+    content: "​just take a look a"/"yet another developer?";
+  }
+  8.0718954248%, 8.1253616558% {
+    content: "​just take a look an";
+    content: "​just take a look an"/"yet another developer?";
+  }
+  8.1263616558%, 8.1798278867% {
+    content: "​just take a look and";
+    content: "​just take a look and"/"yet another developer?";
+  }
+  8.1808278867%, 8.2342941176% {
+    content: "​just take a look and ";
+    content: "​just take a look and "/"yet another developer?";
+  }
+  8.2352941176%, 8.2887603486% {
+    content: "​just take a look and d";
+    content: "​just take a look and d"/"yet another developer?";
+  }
+  8.2897603486%, 8.3432265795% {
+    content: "​just take a look and di";
+    content: "​just take a look and di"/"yet another developer?";
+  }
+  8.3442265795%, 8.3976928105% {
+    content: "​just take a look and dis";
+    content: "​just take a look and dis"/"yet another developer?";
+  }
+  8.3986928105%, 8.4521590414% {
+    content: "​just take a look and disc";
+    content: "​just take a look and disc"/"yet another developer?";
+  }
+  8.4531590414%, 8.5066252723% {
+    content: "​just take a look and disco";
+    content: "​just take a look and disco"/"yet another developer?";
+  }
+  8.5076252723%, 8.5610915033% {
+    content: "​just take a look and discov";
+    content: "​just take a look and discov"/"yet another developer?";
+  }
+  8.5620915033%, 8.6155577342% {
+    content: "​just take a look and discove";
+    content: "​just take a look and discove"/"yet another developer?";
+  }
+  8.6165577342%, 8.6700239651% {
+    content: "​just take a look and discover";
+    content: "​just take a look and discover"/"yet another developer?";
+  }
+  8.6710239651%, 8.7244901961% {
+    content: "​just take a look and discover ";
+    content: "​just take a look and discover "/"yet another developer?";
+  }
+  8.7254901961%, 8.778956427% {
+    content: "​just take a look and discover i";
+    content: "​just take a look and discover i"/"yet another developer?";
+  }
+  8.779956427%, 8.833422658% {
+    content: "​just take a look and discover it";
+    content: "​just take a look and discover it"/"yet another developer?";
+  }
+  8.834422658%, 8.8878888889% {
+    content: "​just take a look and discover it ";
+    content: "​just take a look and discover it "/"yet another developer?";
+  }
+  8.8888888889%, 8.9423551198% {
+    content: "​just take a look and discover it b";
+    content: "​just take a look and discover it b"/"yet another developer?";
+  }
+  8.9433551198%, 8.9968213508% {
+    content: "​just take a look and discover it by";
+    content: "​just take a look and discover it by"/"yet another developer?";
+  }
+  8.9978213508%, 9.0512875817% {
+    content: "​just take a look and discover it by ";
+    content: "​just take a look and discover it by "/"yet another developer?";
+  }
+  9.0522875817%, 9.1057538126% {
+    content: "​just take a look and discover it by y";
+    content: "​just take a look and discover it by y"/"yet another developer?";
+  }
+  9.1067538126%, 9.1602200436% {
+    content: "​just take a look and discover it by yo";
+    content: "​just take a look and discover it by yo"/"yet another developer?";
+  }
+  9.1612200436%, 9.2146862745% {
+    content: "​just take a look and discover it by you";
+    content: "​just take a look and discover it by you"/"yet another developer?";
+  }
+  9.2156862745%, 9.2691525054% {
+    content: "​just take a look and discover it by your";
+    content: "​just take a look and discover it by your"/"yet another developer?";
+  }
+  9.2701525054%, 9.3236187364% {
+    content: "​just take a look and discover it by yours";
+    content: "​just take a look and discover it by yours"/"yet another developer?";
+  }
+  9.3246187364%, 9.3780849673% {
+    content: "​just take a look and discover it by yourse";
+    content: "​just take a look and discover it by yourse"/"yet another developer?";
+  }
+  9.3790849673%, 9.4325511983% {
+    content: "​just take a look and discover it by yoursel";
+    content: "​just take a look and discover it by yoursel"/"yet another developer?";
+  }
+  9.4335511983%, 10.6199150327% {
+    content: "​just take a look and discover it by yourself";
+    content: "​just take a look and discover it by yourself"/"yet another developer?";
+  }
+  10.6209150327%, 10.6634880174% {
+    content: "​just take a look and discover it by yoursel";
+    content: "​just take a look and discover it by yoursel"/"yet another developer?";
+  }
+  10.6644880174%, 10.7070610022% {
+    content: "​just take a look and discover it by yourse";
+    content: "​just take a look and discover it by yourse"/"yet another developer?";
+  }
+  10.7080610022%, 10.7506339869% {
+    content: "​just take a look and discover it by yours";
+    content: "​just take a look and discover it by yours"/"yet another developer?";
+  }
+  10.7516339869%, 10.7942069717% {
+    content: "​just take a look and discover it by your";
+    content: "​just take a look and discover it by your"/"yet another developer?";
+  }
+  10.7952069717%, 10.8377799564% {
+    content: "​just take a look and discover it by you";
+    content: "​just take a look and discover it by you"/"yet another developer?";
+  }
+  10.8387799564%, 10.8813529412% {
+    content: "​just take a look and discover it by yo";
+    content: "​just take a look and discover it by yo"/"yet another developer?";
+  }
+  10.8823529412%, 10.9249259259% {
+    content: "​just take a look and discover it by y";
+    content: "​just take a look and discover it by y"/"yet another developer?";
+  }
+  10.9259259259%, 10.9684989107% {
+    content: "​just take a look and discover it by ";
+    content: "​just take a look and discover it by "/"yet another developer?";
+  }
+  10.9694989107%, 11.0120718954% {
+    content: "​just take a look and discover it by";
+    content: "​just take a look and discover it by"/"yet another developer?";
+  }
+  11.0130718954%, 11.0556448802% {
+    content: "​just take a look and discover it b";
+    content: "​just take a look and discover it b"/"yet another developer?";
+  }
+  11.0566448802%, 11.0992178649% {
+    content: "​just take a look and discover it ";
+    content: "​just take a look and discover it "/"yet another developer?";
+  }
+  11.1002178649%, 11.1427908497% {
+    content: "​just take a look and discover it";
+    content: "​just take a look and discover it"/"yet another developer?";
+  }
+  11.1437908497%, 11.1863638344% {
+    content: "​just take a look and discover i";
+    content: "​just take a look and discover i"/"yet another developer?";
+  }
+  11.1873638344%, 11.2299368192% {
+    content: "​just take a look and discover ";
+    content: "​just take a look and discover "/"yet another developer?";
+  }
+  11.2309368192%, 11.2735098039% {
+    content: "​just take a look and discover";
+    content: "​just take a look and discover"/"yet another developer?";
+  }
+  11.2745098039%, 11.3170827887% {
+    content: "​just take a look and discove";
+    content: "​just take a look and discove"/"yet another developer?";
+  }
+  11.3180827887%, 11.3606557734% {
+    content: "​just take a look and discov";
+    content: "​just take a look and discov"/"yet another developer?";
+  }
+  11.3616557734%, 11.4042287582% {
+    content: "​just take a look and disco";
+    content: "​just take a look and disco"/"yet another developer?";
+  }
+  11.4052287582%, 11.4478017429% {
+    content: "​just take a look and disc";
+    content: "​just take a look and disc"/"yet another developer?";
+  }
+  11.4488017429%, 11.4913747277% {
+    content: "​just take a look and dis";
+    content: "​just take a look and dis"/"yet another developer?";
+  }
+  11.4923747277%, 11.5349477124% {
+    content: "​just take a look and di";
+    content: "​just take a look and di"/"yet another developer?";
+  }
+  11.5359477124%, 11.5785206972% {
+    content: "​just take a look and d";
+    content: "​just take a look and d"/"yet another developer?";
+  }
+  11.5795206972%, 11.6220936819% {
+    content: "​just take a look and ";
+    content: "​just take a look and "/"yet another developer?";
+  }
+  11.6230936819%, 11.6656666667% {
+    content: "​just take a look and";
+    content: "​just take a look and"/"yet another developer?";
+  }
+  11.6666666667%, 11.7092396514% {
+    content: "​just take a look an";
+    content: "​just take a look an"/"yet another developer?";
+  }
+  11.7102396514%, 11.7528126362% {
+    content: "​just take a look a";
+    content: "​just take a look a"/"yet another developer?";
+  }
+  11.7538126362%, 11.7963856209% {
+    content: "​just take a look ";
+    content: "​just take a look "/"yet another developer?";
+  }
+  11.7973856209%, 11.8399586057% {
+    content: "​just take a look";
+    content: "​just take a look"/"yet another developer?";
+  }
+  11.8409586057%, 11.8835315904% {
+    content: "​just take a loo";
+    content: "​just take a loo"/"yet another developer?";
+  }
+  11.8845315904%, 11.9271045752% {
+    content: "​just take a lo";
+    content: "​just take a lo"/"yet another developer?";
+  }
+  11.9281045752%, 11.9706775599% {
+    content: "​just take a l";
+    content: "​just take a l"/"yet another developer?";
+  }
+  11.9716775599%, 12.0142505447% {
+    content: "​just take a ";
+    content: "​just take a "/"yet another developer?";
+  }
+  12.0152505447%, 12.0578235294% {
+    content: "​just take a";
+    content: "​just take a"/"yet another developer?";
+  }
+  12.0588235294%, 12.1013965142% {
+    content: "​just take ";
+    content: "​just take "/"yet another developer?";
+  }
+  12.1023965142%, 12.1449694989% {
+    content: "​just take";
+    content: "​just take"/"yet another developer?";
+  }
+  12.1459694989%, 12.1885424837% {
+    content: "​just tak";
+    content: "​just tak"/"yet another developer?";
+  }
+  12.1895424837%, 12.2321154684% {
+    content: "​just ta";
+    content: "​just ta"/"yet another developer?";
+  }
+  12.2331154684%, 12.2756884532% {
+    content: "​just t";
+    content: "​just t"/"yet another developer?";
+  }
+  12.2766884532%, 12.3192614379% {
+    content: "​just ";
+    content: "​just "/"yet another developer?";
+  }
+  12.3202614379%, 12.3628344227% {
+    content: "​just";
+    content: "​just"/"yet another developer?";
+  }
+  12.3638344227%, 12.4064074074% {
+    content: "​jus";
+    content: "​jus"/"yet another developer?";
+  }
+  12.4074074074%, 12.4499803922% {
+    content: "​ju";
+    content: "​ju"/"yet another developer?";
+  }
+  12.4509803922%, 12.4935533769% {
+    content: "​j";
+    content: "​j"/"yet another developer?";
+  }
+  12.4945533769%, 13.0382156863% {
+    content: "​";
+    content: "​"/"yet another developer?";
+  }
+  13.0392156863%, 13.0926819172% {
+    content: "​t";
+    content: "​t"/"yet another developer?";
+  }
+  13.0936819172%, 13.1471481481% {
+    content: "​th";
+    content: "​th"/"yet another developer?";
+  }
+  13.1481481481%, 13.2016143791% {
+    content: "​the";
+    content: "​the"/"yet another developer?";
+  }
+  13.2026143791%, 13.25608061% {
+    content: "​they";
+    content: "​they"/"yet another developer?";
+  }
+  13.25708061%, 13.310546841% {
+    content: "​they ";
+    content: "​they "/"yet another developer?";
+  }
+  13.311546841%, 13.3650130719% {
+    content: "​they c";
+    content: "​they c"/"yet another developer?";
+  }
+  13.3660130719%, 13.4194793028% {
+    content: "​they ca";
+    content: "​they ca"/"yet another developer?";
+  }
+  13.4204793028%, 13.4739455338% {
+    content: "​they cal";
+    content: "​they cal"/"yet another developer?";
+  }
+  13.4749455338%, 13.5284117647% {
+    content: "​they call";
+    content: "​they call"/"yet another developer?";
+  }
+  13.5294117647%, 13.5828779956% {
+    content: "​they call ";
+    content: "​they call "/"yet another developer?";
+  }
+  13.5838779956%, 13.6373442266% {
+    content: "​they call m";
+    content: "​they call m"/"yet another developer?";
+  }
+  13.6383442266%, 13.6918104575% {
+    content: "​they call me";
+    content: "​they call me"/"yet another developer?";
+  }
+  13.6928104575%, 13.7462766885% {
+    content: "​they call me ";
+    content: "​they call me "/"yet another developer?";
+  }
+  13.7472766885%, 13.8007429194% {
+    content: "​they call me b";
+    content: "​they call me b"/"yet another developer?";
+  }
+  13.8017429194%, 13.8552091503% {
+    content: "​they call me by";
+    content: "​they call me by"/"yet another developer?";
+  }
+  13.8562091503%, 13.9096753813% {
+    content: "​they call me by ";
+    content: "​they call me by "/"yet another developer?";
+  }
+  13.9106753813%, 13.9641416122% {
+    content: "​they call me by m";
+    content: "​they call me by m"/"yet another developer?";
+  }
+  13.9651416122%, 14.0186078431% {
+    content: "​they call me by ma";
+    content: "​they call me by ma"/"yet another developer?";
+  }
+  14.0196078431%, 14.0730740741% {
+    content: "​they call me by man";
+    content: "​they call me by man"/"yet another developer?";
+  }
+  14.0740740741%, 14.127540305% {
+    content: "​they call me by many";
+    content: "​they call me by many"/"yet another developer?";
+  }
+  14.128540305%, 14.1820065359% {
+    content: "​they call me by many ";
+    content: "​they call me by many "/"yet another developer?";
+  }
+  14.1830065359%, 14.2364727669% {
+    content: "​they call me by many n";
+    content: "​they call me by many n"/"yet another developer?";
+  }
+  14.2374727669%, 14.2909389978% {
+    content: "​they call me by many na";
+    content: "​they call me by many na"/"yet another developer?";
+  }
+  14.2919389978%, 14.3454052288% {
+    content: "​they call me by many nam";
+    content: "​they call me by many nam"/"yet another developer?";
+  }
+  14.3464052288%, 14.3998714597% {
+    content: "​they call me by many name";
+    content: "​they call me by many name"/"yet another developer?";
+  }
+  14.4008714597%, 15.5872352941% {
+    content: "​they call me by many names";
+    content: "​they call me by many names"/"yet another developer?";
+  }
+  15.5882352941%, 15.6308082789% {
+    content: "​they call me by many name";
+    content: "​they call me by many name"/"yet another developer?";
+  }
+  15.6318082789%, 15.6743812636% {
+    content: "​they call me by many nam";
+    content: "​they call me by many nam"/"yet another developer?";
+  }
+  15.6753812636%, 15.7179542484% {
+    content: "​they call me by many na";
+    content: "​they call me by many na"/"yet another developer?";
+  }
+  15.7189542484%, 15.7615272331% {
+    content: "​they call me by many n";
+    content: "​they call me by many n"/"yet another developer?";
+  }
+  15.7625272331%, 15.8051002179% {
+    content: "​they call me by many ";
+    content: "​they call me by many "/"yet another developer?";
+  }
+  15.8061002179%, 15.8486732026% {
+    content: "​they call me by many";
+    content: "​they call me by many"/"yet another developer?";
+  }
+  15.8496732026%, 15.8922461874% {
+    content: "​they call me by man";
+    content: "​they call me by man"/"yet another developer?";
+  }
+  15.8932461874%, 15.9358191721% {
+    content: "​they call me by ma";
+    content: "​they call me by ma"/"yet another developer?";
+  }
+  15.9368191721%, 15.9793921569% {
+    content: "​they call me by m";
+    content: "​they call me by m"/"yet another developer?";
+  }
+  15.9803921569%, 16.0229651416% {
+    content: "​they call me by ";
+    content: "​they call me by "/"yet another developer?";
+  }
+  16.0239651416%, 16.0665381264% {
+    content: "​they call me by";
+    content: "​they call me by"/"yet another developer?";
+  }
+  16.0675381264%, 16.1101111111% {
+    content: "​they call me b";
+    content: "​they call me b"/"yet another developer?";
+  }
+  16.1111111111%, 16.1536840959% {
+    content: "​they call me ";
+    content: "​they call me "/"yet another developer?";
+  }
+  16.1546840959%, 16.1972570806% {
+    content: "​they call me";
+    content: "​they call me"/"yet another developer?";
+  }
+  16.1982570806%, 16.2408300654% {
+    content: "​they call m";
+    content: "​they call m"/"yet another developer?";
+  }
+  16.2418300654%, 16.2844030501% {
+    content: "​they call ";
+    content: "​they call "/"yet another developer?";
+  }
+  16.2854030501%, 16.3279760349% {
+    content: "​they call";
+    content: "​they call"/"yet another developer?";
+  }
+  16.3289760349%, 16.3715490196% {
+    content: "​they cal";
+    content: "​they cal"/"yet another developer?";
+  }
+  16.3725490196%, 16.4151220044% {
+    content: "​they ca";
+    content: "​they ca"/"yet another developer?";
+  }
+  16.4161220044%, 16.4586949891% {
+    content: "​they c";
+    content: "​they c"/"yet another developer?";
+  }
+  16.4596949891%, 16.5022679739% {
+    content: "​they ";
+    content: "​they "/"yet another developer?";
+  }
+  16.5032679739%, 16.5458409586% {
+    content: "​they";
+    content: "​they"/"yet another developer?";
+  }
+  16.5468409586%, 16.5894139434% {
+    content: "​the";
+    content: "​the"/"yet another developer?";
+  }
+  16.5904139434%, 16.6329869281% {
+    content: "​th";
+    content: "​th"/"yet another developer?";
+  }
+  16.6339869281%, 16.6765599129% {
+    content: "​t";
+    content: "​t"/"yet another developer?";
+  }
+  16.6775599129%, 17.2212222222% {
+    content: "​";
+    content: "​"/"yet another developer?";
+  }
+  17.2222222222%, 17.2756884532% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  17.2766884532%, 17.3301546841% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  17.3311546841%, 17.384620915% {
+    content: "​a L";
+    content: "​a L"/"yet another developer?";
+  }
+  17.385620915%, 17.439087146% {
+    content: "​a Li";
+    content: "​a Li"/"yet another developer?";
+  }
+  17.440087146%, 17.4935533769% {
+    content: "​a Lin";
+    content: "​a Lin"/"yet another developer?";
+  }
+  17.4945533769%, 17.5480196078% {
+    content: "​a Linu";
+    content: "​a Linu"/"yet another developer?";
+  }
+  17.5490196078%, 17.6024858388% {
+    content: "​a Linux";
+    content: "​a Linux"/"yet another developer?";
+  }
+  17.6034858388%, 17.6569520697% {
+    content: "​a Linux ";
+    content: "​a Linux "/"yet another developer?";
+  }
+  17.6579520697%, 17.7114183007% {
+    content: "​a Linux u";
+    content: "​a Linux u"/"yet another developer?";
+  }
+  17.7124183007%, 17.7658845316% {
+    content: "​a Linux us";
+    content: "​a Linux us"/"yet another developer?";
+  }
+  17.7668845316%, 17.8203507625% {
+    content: "​a Linux use";
+    content: "​a Linux use"/"yet another developer?";
+  }
+  17.8213507625%, 19.0077145969% {
+    content: "​a Linux user";
+    content: "​a Linux user"/"yet another developer?";
+  }
+  19.0087145969%, 19.0512875817% {
+    content: "​a Linux use";
+    content: "​a Linux use"/"yet another developer?";
+  }
+  19.0522875817%, 19.0948605664% {
+    content: "​a Linux us";
+    content: "​a Linux us"/"yet another developer?";
+  }
+  19.0958605664%, 19.1384335512% {
+    content: "​a Linux u";
+    content: "​a Linux u"/"yet another developer?";
+  }
+  19.1394335512%, 19.1820065359% {
+    content: "​a Linux ";
+    content: "​a Linux "/"yet another developer?";
+  }
+  19.1830065359%, 19.2255795207% {
+    content: "​a Linux";
+    content: "​a Linux"/"yet another developer?";
+  }
+  19.2265795207%, 19.2691525054% {
+    content: "​a Linu";
+    content: "​a Linu"/"yet another developer?";
+  }
+  19.2701525054%, 19.3127254902% {
+    content: "​a Lin";
+    content: "​a Lin"/"yet another developer?";
+  }
+  19.3137254902%, 19.3562984749% {
+    content: "​a Li";
+    content: "​a Li"/"yet another developer?";
+  }
+  19.3572984749%, 19.3998714597% {
+    content: "​a L";
+    content: "​a L"/"yet another developer?";
+  }
+  19.4008714597%, 19.4434444444% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  19.4444444444%, 19.4870174292% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  19.4880174292%, 20.0316797386% {
+    content: "​";
+    content: "​"/"yet another developer?";
+  }
+  20.0326797386%, 20.0861459695% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  20.0871459695%, 20.1406122004% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  20.1416122004%, 20.1950784314% {
+    content: "​a G";
+    content: "​a G"/"yet another developer?";
+  }
+  20.1960784314%, 20.2495446623% {
+    content: "​a Gi";
+    content: "​a Gi"/"yet another developer?";
+  }
+  20.2505446623%, 20.3040108932% {
+    content: "​a Git";
+    content: "​a Git"/"yet another developer?";
+  }
+  20.3050108932%, 20.3584771242% {
+    content: "​a Git-";
+    content: "​a Git-"/"yet another developer?";
+  }
+  20.3594771242%, 20.4129433551% {
+    content: "​a Git-a";
+    content: "​a Git-a"/"yet another developer?";
+  }
+  20.4139433551%, 20.4674095861% {
+    content: "​a Git-ar";
+    content: "​a Git-ar"/"yet another developer?";
+  }
+  20.4684095861%, 20.521875817% {
+    content: "​a Git-ar ";
+    content: "​a Git-ar "/"yet another developer?";
+  }
+  20.522875817%, 20.5763420479% {
+    content: "​a Git-ar h";
+    content: "​a Git-ar h"/"yet another developer?";
+  }
+  20.5773420479%, 20.6308082789% {
+    content: "​a Git-ar he";
+    content: "​a Git-ar he"/"yet another developer?";
+  }
+  20.6318082789%, 20.6852745098% {
+    content: "​a Git-ar her";
+    content: "​a Git-ar her"/"yet another developer?";
+  }
+  20.6862745098%, 21.8726383442% {
+    content: "​a Git-ar hero";
+    content: "​a Git-ar hero"/"yet another developer?";
+  }
+  21.8736383442%, 21.916211329% {
+    content: "​a Git-ar her";
+    content: "​a Git-ar her"/"yet another developer?";
+  }
+  21.917211329%, 21.9597843137% {
+    content: "​a Git-ar he";
+    content: "​a Git-ar he"/"yet another developer?";
+  }
+  21.9607843137%, 22.0033572985% {
+    content: "​a Git-ar h";
+    content: "​a Git-ar h"/"yet another developer?";
+  }
+  22.0043572985%, 22.0469302832% {
+    content: "​a Git-ar ";
+    content: "​a Git-ar "/"yet another developer?";
+  }
+  22.0479302832%, 22.090503268% {
+    content: "​a Git-ar";
+    content: "​a Git-ar"/"yet another developer?";
+  }
+  22.091503268%, 22.1340762527% {
+    content: "​a Git-a";
+    content: "​a Git-a"/"yet another developer?";
+  }
+  22.1350762527%, 22.1776492375% {
+    content: "​a Git-";
+    content: "​a Git-"/"yet another developer?";
+  }
+  22.1786492375%, 22.2212222222% {
+    content: "​a Git";
+    content: "​a Git"/"yet another developer?";
+  }
+  22.2222222222%, 22.264795207% {
+    content: "​a Gi";
+    content: "​a Gi"/"yet another developer?";
+  }
+  22.265795207%, 22.3083681917% {
+    content: "​a G";
+    content: "​a G"/"yet another developer?";
+  }
+  22.3093681917%, 22.3519411765% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  22.3529411765%, 22.3955141612% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  22.3965141612%, 22.9401764706% {
+    content: "​";
+    content: "​"/"yet another developer?";
+  }
+  22.9411764706%, 22.9946427015% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  22.9956427015%, 23.0491089325% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  23.0501089325%, 23.1035751634% {
+    content: "​a C";
+    content: "​a C"/"yet another developer?";
+  }
+  23.1045751634%, 23.1580413943% {
+    content: "​a C ";
+    content: "​a C "/"yet another developer?";
+  }
+  23.1590413943%, 23.2125076253% {
+    content: "​a C e";
+    content: "​a C e"/"yet another developer?";
+  }
+  23.2135076253%, 23.2669738562% {
+    content: "​a C en";
+    content: "​a C en"/"yet another developer?";
+  }
+  23.2679738562%, 23.3214400871% {
+    content: "​a C enj";
+    content: "​a C enj"/"yet another developer?";
+  }
+  23.3224400871%, 23.3759063181% {
+    content: "​a C enjo";
+    content: "​a C enjo"/"yet another developer?";
+  }
+  23.3769063181%, 23.430372549% {
+    content: "​a C enjoy";
+    content: "​a C enjoy"/"yet another developer?";
+  }
+  23.431372549%, 23.48483878% {
+    content: "​a C enjoye";
+    content: "​a C enjoye"/"yet another developer?";
+  }
+  23.48583878%, 24.6722026144% {
+    content: "​a C enjoyer";
+    content: "​a C enjoyer"/"yet another developer?";
+  }
+  24.6732026144%, 24.7157755991% {
+    content: "​a C enjoye";
+    content: "​a C enjoye"/"yet another developer?";
+  }
+  24.7167755991%, 24.7593485839% {
+    content: "​a C enjoy";
+    content: "​a C enjoy"/"yet another developer?";
+  }
+  24.7603485839%, 24.8029215686% {
+    content: "​a C enjo";
+    content: "​a C enjo"/"yet another developer?";
+  }
+  24.8039215686%, 24.8464945534% {
+    content: "​a C enj";
+    content: "​a C enj"/"yet another developer?";
+  }
+  24.8474945534%, 24.8900675381% {
+    content: "​a C en";
+    content: "​a C en"/"yet another developer?";
+  }
+  24.8910675381%, 24.9336405229% {
+    content: "​a C e";
+    content: "​a C e"/"yet another developer?";
+  }
+  24.9346405229%, 24.9772135076% {
+    content: "​a C ";
+    content: "​a C "/"yet another developer?";
+  }
+  24.9782135076%, 25.0207864924% {
+    content: "​a C";
+    content: "​a C"/"yet another developer?";
+  }
+  25.0217864924%, 25.0643594771% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  25.0653594771%, 25.1079324619% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  25.1089324619%, 25.6525947712% {
+    content: "​";
+    content: "​"/"yet another developer?";
+  }
+  25.6535947712%, 25.7070610022% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  25.7080610022%, 25.7615272331% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  25.7625272331%, 25.8159934641% {
+    content: "​a J";
+    content: "​a J"/"yet another developer?";
+  }
+  25.8169934641%, 25.870459695% {
+    content: "​a Ja";
+    content: "​a Ja"/"yet another developer?";
+  }
+  25.871459695%, 25.9249259259% {
+    content: "​a Jav";
+    content: "​a Jav"/"yet another developer?";
+  }
+  25.9259259259%, 25.9793921569% {
+    content: "​a Java";
+    content: "​a Java"/"yet another developer?";
+  }
+  25.9803921569%, 26.0338583878% {
+    content: "​a Java ";
+    content: "​a Java "/"yet another developer?";
+  }
+  26.0348583878%, 26.0883246187% {
+    content: "​a Java l";
+    content: "​a Java l"/"yet another developer?";
+  }
+  26.0893246187%, 26.1427908497% {
+    content: "​a Java lo";
+    content: "​a Java lo"/"yet another developer?";
+  }
+  26.1437908497%, 26.1972570806% {
+    content: "​a Java lov";
+    content: "​a Java lov"/"yet another developer?";
+  }
+  26.1982570806%, 26.2517233115% {
+    content: "​a Java love";
+    content: "​a Java love"/"yet another developer?";
+  }
+  26.2527233115%, 27.439087146% {
+    content: "​a Java lover";
+    content: "​a Java lover"/"yet another developer?";
+  }
+  27.440087146%, 27.4826601307% {
+    content: "​a Java love";
+    content: "​a Java love"/"yet another developer?";
+  }
+  27.4836601307%, 27.5262331155% {
+    content: "​a Java lov";
+    content: "​a Java lov"/"yet another developer?";
+  }
+  27.5272331155%, 27.5698061002% {
+    content: "​a Java lo";
+    content: "​a Java lo"/"yet another developer?";
+  }
+  27.5708061002%, 27.613379085% {
+    content: "​a Java l";
+    content: "​a Java l"/"yet another developer?";
+  }
+  27.614379085%, 27.6569520697% {
+    content: "​a Java ";
+    content: "​a Java "/"yet another developer?";
+  }
+  27.6579520697%, 27.7005250545% {
+    content: "​a Java";
+    content: "​a Java"/"yet another developer?";
+  }
+  27.7015250545%, 27.7440980392% {
+    content: "​a Jav";
+    content: "​a Jav"/"yet another developer?";
+  }
+  27.7450980392%, 27.787671024% {
+    content: "​a Ja";
+    content: "​a Ja"/"yet another developer?";
+  }
+  27.788671024%, 27.8312440087% {
+    content: "​a J";
+    content: "​a J"/"yet another developer?";
+  }
+  27.8322440087%, 27.8748169935% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  27.8758169935%, 27.9183899782% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  27.9193899782%, 28.4630522876% {
+    content: "​";
+    content: "​"/"yet another developer?";
+  }
+  28.4640522876%, 28.5175185185% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  28.5185185185%, 28.5719847495% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  28.5729847495%, 28.6264509804% {
+    content: "​a J";
+    content: "​a J"/"yet another developer?";
+  }
+  28.6274509804%, 28.6809172113% {
+    content: "​a Ja";
+    content: "​a Ja"/"yet another developer?";
+  }
+  28.6819172113%, 28.7353834423% {
+    content: "​a Jav";
+    content: "​a Jav"/"yet another developer?";
+  }
+  28.7363834423%, 28.7898496732% {
+    content: "​a Java";
+    content: "​a Java"/"yet another developer?";
+  }
+  28.7908496732%, 28.8443159041% {
+    content: "​a JavaS";
+    content: "​a JavaS"/"yet another developer?";
+  }
+  28.8453159041%, 28.8987821351% {
+    content: "​a JavaSc";
+    content: "​a JavaSc"/"yet another developer?";
+  }
+  28.8997821351%, 28.953248366% {
+    content: "​a JavaScr";
+    content: "​a JavaScr"/"yet another developer?";
+  }
+  28.954248366%, 29.0077145969% {
+    content: "​a JavaScri";
+    content: "​a JavaScri"/"yet another developer?";
+  }
+  29.0087145969%, 29.0621808279% {
+    content: "​a JavaScrip";
+    content: "​a JavaScrip"/"yet another developer?";
+  }
+  29.0631808279%, 29.1166470588% {
+    content: "​a JavaScript";
+    content: "​a JavaScript"/"yet another developer?";
+  }
+  29.1176470588%, 29.1711132898% {
+    content: "​a JavaScript ";
+    content: "​a JavaScript "/"yet another developer?";
+  }
+  29.1721132898%, 29.2255795207% {
+    content: "​a JavaScript h";
+    content: "​a JavaScript h"/"yet another developer?";
+  }
+  29.2265795207%, 29.2800457516% {
+    content: "​a JavaScript ha";
+    content: "​a JavaScript ha"/"yet another developer?";
+  }
+  29.2810457516%, 29.3345119826% {
+    content: "​a JavaScript hat";
+    content: "​a JavaScript hat"/"yet another developer?";
+  }
+  29.3355119826%, 29.3889782135% {
+    content: "​a JavaScript hate";
+    content: "​a JavaScript hate"/"yet another developer?";
+  }
+  29.3899782135%, 30.5763420479% {
+    content: "​a JavaScript hater";
+    content: "​a JavaScript hater"/"yet another developer?";
+  }
+  30.5773420479%, 30.6199150327% {
+    content: "​a JavaScript hate";
+    content: "​a JavaScript hate"/"yet another developer?";
+  }
+  30.6209150327%, 30.6634880174% {
+    content: "​a JavaScript hat";
+    content: "​a JavaScript hat"/"yet another developer?";
+  }
+  30.6644880174%, 30.7070610022% {
+    content: "​a JavaScript ha";
+    content: "​a JavaScript ha"/"yet another developer?";
+  }
+  30.7080610022%, 30.7506339869% {
+    content: "​a JavaScript h";
+    content: "​a JavaScript h"/"yet another developer?";
+  }
+  30.7516339869%, 30.7942069717% {
+    content: "​a JavaScript ";
+    content: "​a JavaScript "/"yet another developer?";
+  }
+  30.7952069717%, 30.8377799564% {
+    content: "​a JavaScript";
+    content: "​a JavaScript"/"yet another developer?";
+  }
+  30.8387799564%, 30.8813529412% {
+    content: "​a JavaScrip";
+    content: "​a JavaScrip"/"yet another developer?";
+  }
+  30.8823529412%, 30.9249259259% {
+    content: "​a JavaScri";
+    content: "​a JavaScri"/"yet another developer?";
+  }
+  30.9259259259%, 30.9684989107% {
+    content: "​a JavaScr";
+    content: "​a JavaScr"/"yet another developer?";
+  }
+  30.9694989107%, 31.0120718954% {
+    content: "​a JavaSc";
+    content: "​a JavaSc"/"yet another developer?";
+  }
+  31.0130718954%, 31.0556448802% {
+    content: "​a JavaS";
+    content: "​a JavaS"/"yet another developer?";
+  }
+  31.0566448802%, 31.0992178649% {
+    content: "​a Java";
+    content: "​a Java"/"yet another developer?";
+  }
+  31.1002178649%, 31.1427908497% {
+    content: "​a Jav";
+    content: "​a Jav"/"yet another developer?";
+  }
+  31.1437908497%, 31.1863638344% {
+    content: "​a Ja";
+    content: "​a Ja"/"yet another developer?";
+  }
+  31.1873638344%, 31.2299368192% {
+    content: "​a J";
+    content: "​a J"/"yet another developer?";
+  }
+  31.2309368192%, 31.2735098039% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  31.2745098039%, 31.3170827887% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  31.3180827887%, 31.861745098% {
+    content: "​";
+    content: "​"/"yet another developer?";
+  }
+  31.862745098%, 31.916211329% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  31.917211329%, 31.9706775599% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  31.9716775599%, 32.0251437908% {
+    content: "​a B";
+    content: "​a B"/"yet another developer?";
+  }
+  32.0261437908%, 32.0796100218% {
+    content: "​a Bl";
+    content: "​a Bl"/"yet another developer?";
+  }
+  32.0806100218%, 32.1340762527% {
+    content: "​a Ble";
+    content: "​a Ble"/"yet another developer?";
+  }
+  32.1350762527%, 32.1885424837% {
+    content: "​a Blen";
+    content: "​a Blen"/"yet another developer?";
+  }
+  32.1895424837%, 32.2430087146% {
+    content: "​a Blend";
+    content: "​a Blend"/"yet another developer?";
+  }
+  32.2440087146%, 32.2974749455% {
+    content: "​a Blende";
+    content: "​a Blende"/"yet another developer?";
+  }
+  32.2984749455%, 32.3519411765% {
+    content: "​a Blender";
+    content: "​a Blender"/"yet another developer?";
+  }
+  32.3529411765%, 32.4064074074% {
+    content: "​a Blender ";
+    content: "​a Blender "/"yet another developer?";
+  }
+  32.4074074074%, 32.4608736383% {
+    content: "​a Blender m";
+    content: "​a Blender m"/"yet another developer?";
+  }
+  32.4618736383%, 32.5153398693% {
+    content: "​a Blender mo";
+    content: "​a Blender mo"/"yet another developer?";
+  }
+  32.5163398693%, 32.5698061002% {
+    content: "​a Blender mod";
+    content: "​a Blender mod"/"yet another developer?";
+  }
+  32.5708061002%, 32.6242723312% {
+    content: "​a Blender mode";
+    content: "​a Blender mode"/"yet another developer?";
+  }
+  32.6252723312%, 32.6787385621% {
+    content: "​a Blender model";
+    content: "​a Blender model"/"yet another developer?";
+  }
+  32.6797385621%, 32.733204793% {
+    content: "​a Blender modele";
+    content: "​a Blender modele"/"yet another developer?";
+  }
+  32.734204793%, 33.9205686275% {
+    content: "​a Blender modeler";
+    content: "​a Blender modeler"/"yet another developer?";
+  }
+  33.9215686275%, 33.9641416122% {
+    content: "​a Blender modele";
+    content: "​a Blender modele"/"yet another developer?";
+  }
+  33.9651416122%, 34.0077145969% {
+    content: "​a Blender model";
+    content: "​a Blender model"/"yet another developer?";
+  }
+  34.0087145969%, 34.0512875817% {
+    content: "​a Blender mode";
+    content: "​a Blender mode"/"yet another developer?";
+  }
+  34.0522875817%, 34.0948605664% {
+    content: "​a Blender mod";
+    content: "​a Blender mod"/"yet another developer?";
+  }
+  34.0958605664%, 34.1384335512% {
+    content: "​a Blender mo";
+    content: "​a Blender mo"/"yet another developer?";
+  }
+  34.1394335512%, 34.1820065359% {
+    content: "​a Blender m";
+    content: "​a Blender m"/"yet another developer?";
+  }
+  34.1830065359%, 34.2255795207% {
+    content: "​a Blender ";
+    content: "​a Blender "/"yet another developer?";
+  }
+  34.2265795207%, 34.2691525054% {
+    content: "​a Blender";
+    content: "​a Blender"/"yet another developer?";
+  }
+  34.2701525054%, 34.3127254902% {
+    content: "​a Blende";
+    content: "​a Blende"/"yet another developer?";
+  }
+  34.3137254902%, 34.3562984749% {
+    content: "​a Blend";
+    content: "​a Blend"/"yet another developer?";
+  }
+  34.3572984749%, 34.3998714597% {
+    content: "​a Blen";
+    content: "​a Blen"/"yet another developer?";
+  }
+  34.4008714597%, 34.4434444444% {
+    content: "​a Ble";
+    content: "​a Ble"/"yet another developer?";
+  }
+  34.4444444444%, 34.4870174292% {
+    content: "​a Bl";
+    content: "​a Bl"/"yet another developer?";
+  }
+  34.4880174292%, 34.5305904139% {
+    content: "​a B";
+    content: "​a B"/"yet another developer?";
+  }
+  34.5315904139%, 34.5741633987% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  34.5751633987%, 34.6177363834% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  34.6187363834%, 35.1623986928% {
+    content: "​";
+    content: "​"/"yet another developer?";
+  }
+  35.1633986928%, 35.2168649237% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  35.2178649237%, 35.2713311547% {
+    content: "​an";
+    content: "​an"/"yet another developer?";
+  }
+  35.2723311547%, 35.3257973856% {
+    content: "​an ";
+    content: "​an "/"yet another developer?";
+  }
+  35.3267973856%, 35.3802636166% {
+    content: "​an e";
+    content: "​an e"/"yet another developer?";
+  }
+  35.3812636166%, 35.4347298475% {
+    content: "​an en";
+    content: "​an en"/"yet another developer?";
+  }
+  35.4357298475%, 35.4891960784% {
+    content: "​an eng";
+    content: "​an eng"/"yet another developer?";
+  }
+  35.4901960784%, 35.5436623094% {
+    content: "​an engi";
+    content: "​an engi"/"yet another developer?";
+  }
+  35.5446623094%, 35.5981285403% {
+    content: "​an engin";
+    content: "​an engin"/"yet another developer?";
+  }
+  35.5991285403%, 35.6525947712% {
+    content: "​an engine";
+    content: "​an engine"/"yet another developer?";
+  }
+  35.6535947712%, 35.7070610022% {
+    content: "​an enginee";
+    content: "​an enginee"/"yet another developer?";
+  }
+  35.7080610022%, 36.8944248366% {
+    content: "​an engineer";
+    content: "​an engineer"/"yet another developer?";
+  }
+  36.8954248366%, 36.9379978214% {
+    content: "​an enginee";
+    content: "​an enginee"/"yet another developer?";
+  }
+  36.9389978214%, 36.9815708061% {
+    content: "​an engine";
+    content: "​an engine"/"yet another developer?";
+  }
+  36.9825708061%, 37.0251437908% {
+    content: "​an engin";
+    content: "​an engin"/"yet another developer?";
+  }
+  37.0261437908%, 37.0687167756% {
+    content: "​an engi";
+    content: "​an engi"/"yet another developer?";
+  }
+  37.0697167756%, 37.1122897603% {
+    content: "​an eng";
+    content: "​an eng"/"yet another developer?";
+  }
+  37.1132897603%, 37.1558627451% {
+    content: "​an en";
+    content: "​an en"/"yet another developer?";
+  }
+  37.1568627451%, 37.1994357298% {
+    content: "​an e";
+    content: "​an e"/"yet another developer?";
+  }
+  37.2004357298%, 37.2430087146% {
+    content: "​an ";
+    content: "​an "/"yet another developer?";
+  }
+  37.2440087146%, 37.2865816993% {
+    content: "​an";
+    content: "​an"/"yet another developer?";
+  }
+  37.2875816993%, 37.3301546841% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  37.3311546841%, 37.8748169935% {
+    content: "​";
+    content: "​"/"yet another developer?";
+  }
+  37.8758169935%, 37.9292832244% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  37.9302832244%, 37.9837494553% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  37.9847494553%, 38.0382156863% {
+    content: "​a g";
+    content: "​a g"/"yet another developer?";
+  }
+  38.0392156863%, 38.0926819172% {
+    content: "​a ge";
+    content: "​a ge"/"yet another developer?";
+  }
+  38.0936819172%, 38.1471481481% {
+    content: "​a gee";
+    content: "​a gee"/"yet another developer?";
+  }
+  38.1481481481%, 39.3345119826% {
+    content: "​a geek";
+    content: "​a geek"/"yet another developer?";
+  }
+  39.3355119826%, 39.3780849673% {
+    content: "​a gee";
+    content: "​a gee"/"yet another developer?";
+  }
+  39.3790849673%, 39.4216579521% {
+    content: "​a ge";
+    content: "​a ge"/"yet another developer?";
+  }
+  39.4226579521%, 39.4652309368% {
+    content: "​a g";
+    content: "​a g"/"yet another developer?";
+  }
+  39.4662309368%, 39.5088039216% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  39.5098039216%, 39.5523769063% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  39.5533769063%, 40.0970392157% {
+    content: "​";
+    content: "​"/"yet another developer?";
+  }
+  40.0980392157%, 40.1515054466% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  40.1525054466%, 40.2059716776% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  40.2069716776%, 40.2604379085% {
+    content: "​a m";
+    content: "​a m"/"yet another developer?";
+  }
+  40.2614379085%, 40.3149041394% {
+    content: "​a ma";
+    content: "​a ma"/"yet another developer?";
+  }
+  40.3159041394%, 40.3693703704% {
+    content: "​a mak";
+    content: "​a mak"/"yet another developer?";
+  }
+  40.3703703704%, 40.4238366013% {
+    content: "​a make";
+    content: "​a make"/"yet another developer?";
+  }
+  40.4248366013%, 41.6112004357% {
+    content: "​a maker";
+    content: "​a maker"/"yet another developer?";
+  }
+  41.6122004357%, 41.6547734205% {
+    content: "​a make";
+    content: "​a make"/"yet another developer?";
+  }
+  41.6557734205%, 41.6983464052% {
+    content: "​a mak";
+    content: "​a mak"/"yet another developer?";
+  }
+  41.6993464052%, 41.74191939% {
+    content: "​a ma";
+    content: "​a ma"/"yet another developer?";
+  }
+  41.74291939%, 41.7854923747% {
+    content: "​a m";
+    content: "​a m"/"yet another developer?";
+  }
+  41.7864923747%, 41.8290653595% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  41.8300653595%, 41.8726383442% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  41.8736383442%, 42.4173006536% {
+    content: "​";
+    content: "​"/"yet another developer?";
+  }
+  42.4183006536%, 42.4717668845% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  42.4727668845%, 42.5262331155% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  42.5272331155%, 42.5806993464% {
+    content: "​a h";
+    content: "​a h"/"yet another developer?";
+  }
+  42.5816993464%, 42.6351655773% {
+    content: "​a ha";
+    content: "​a ha"/"yet another developer?";
+  }
+  42.6361655773%, 42.6896318083% {
+    content: "​a hac";
+    content: "​a hac"/"yet another developer?";
+  }
+  42.6906318083%, 42.7440980392% {
+    content: "​a hack";
+    content: "​a hack"/"yet another developer?";
+  }
+  42.7450980392%, 42.7985642702% {
+    content: "​a hacke";
+    content: "​a hacke"/"yet another developer?";
+  }
+  42.7995642702%, 43.9859281046% {
+    content: "​a hacker";
+    content: "​a hacker"/"yet another developer?";
+  }
+  43.9869281046%, 44.0295010893% {
+    content: "​a hacke";
+    content: "​a hacke"/"yet another developer?";
+  }
+  44.0305010893%, 44.0730740741% {
+    content: "​a hack";
+    content: "​a hack"/"yet another developer?";
+  }
+  44.0740740741%, 44.1166470588% {
+    content: "​a hac";
+    content: "​a hac"/"yet another developer?";
+  }
+  44.1176470588%, 44.1602200436% {
+    content: "​a ha";
+    content: "​a ha"/"yet another developer?";
+  }
+  44.1612200436%, 44.2037930283% {
+    content: "​a h";
+    content: "​a h"/"yet another developer?";
+  }
+  44.2047930283%, 44.2473660131% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  44.2483660131%, 44.2909389978% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  44.2919389978%, 44.8356013072% {
+    content: "​";
+    content: "​"/"yet another developer?";
+  }
+  44.8366013072%, 44.8900675381% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  44.8910675381%, 44.9445337691% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  44.9455337691%, 44.999% {
+    content: "​a p";
+    content: "​a p"/"yet another developer?";
+  }
+  45%, 45.0534662309% {
+    content: "​a pr";
+    content: "​a pr"/"yet another developer?";
+  }
+  45.0544662309%, 45.1079324619% {
+    content: "​a pro";
+    content: "​a pro"/"yet another developer?";
+  }
+  45.1089324619%, 45.1623986928% {
+    content: "​a prog";
+    content: "​a prog"/"yet another developer?";
+  }
+  45.1633986928%, 45.2168649237% {
+    content: "​a progr";
+    content: "​a progr"/"yet another developer?";
+  }
+  45.2178649237%, 45.2713311547% {
+    content: "​a progra";
+    content: "​a progra"/"yet another developer?";
+  }
+  45.2723311547%, 45.3257973856% {
+    content: "​a program";
+    content: "​a program"/"yet another developer?";
+  }
+  45.3267973856%, 45.3802636166% {
+    content: "​a programm";
+    content: "​a programm"/"yet another developer?";
+  }
+  45.3812636166%, 45.4347298475% {
+    content: "​a programme";
+    content: "​a programme"/"yet another developer?";
+  }
+  45.4357298475%, 46.6220936819% {
+    content: "​a programmer";
+    content: "​a programmer"/"yet another developer?";
+  }
+  46.6230936819%, 46.6656666667% {
+    content: "​a programme";
+    content: "​a programme"/"yet another developer?";
+  }
+  46.6666666667%, 46.7092396514% {
+    content: "​a programm";
+    content: "​a programm"/"yet another developer?";
+  }
+  46.7102396514%, 46.7528126362% {
+    content: "​a program";
+    content: "​a program"/"yet another developer?";
+  }
+  46.7538126362%, 46.7963856209% {
+    content: "​a progra";
+    content: "​a progra"/"yet another developer?";
+  }
+  46.7973856209%, 46.8399586057% {
+    content: "​a progr";
+    content: "​a progr"/"yet another developer?";
+  }
+  46.8409586057%, 46.8835315904% {
+    content: "​a prog";
+    content: "​a prog"/"yet another developer?";
+  }
+  46.8845315904%, 46.9271045752% {
+    content: "​a pro";
+    content: "​a pro"/"yet another developer?";
+  }
+  46.9281045752%, 46.9706775599% {
+    content: "​a pr";
+    content: "​a pr"/"yet another developer?";
+  }
+  46.9716775599%, 47.0142505447% {
+    content: "​a p";
+    content: "​a p"/"yet another developer?";
+  }
+  47.0152505447%, 47.0578235294% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  47.0588235294%, 47.1013965142% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  47.1023965142%, 47.6460588235% {
+    content: "​";
+    content: "​"/"yet another developer?";
+  }
+  47.6470588235%, 47.7005250545% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  47.7015250545%, 47.7549912854% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  47.7559912854%, 47.8094575163% {
+    content: "​a c";
+    content: "​a c"/"yet another developer?";
+  }
+  47.8104575163%, 47.8639237473% {
+    content: "​a co";
+    content: "​a co"/"yet another developer?";
+  }
+  47.8649237473%, 47.9183899782% {
+    content: "​a cod";
+    content: "​a cod"/"yet another developer?";
+  }
+  47.9193899782%, 47.9728562092% {
+    content: "​a code";
+    content: "​a code"/"yet another developer?";
+  }
+  47.9738562092%, 49.1602200436% {
+    content: "​a coder";
+    content: "​a coder"/"yet another developer?";
+  }
+  49.1612200436%, 49.2037930283% {
+    content: "​a code";
+    content: "​a code"/"yet another developer?";
+  }
+  49.2047930283%, 49.2473660131% {
+    content: "​a cod";
+    content: "​a cod"/"yet another developer?";
+  }
+  49.2483660131%, 49.2909389978% {
+    content: "​a co";
+    content: "​a co"/"yet another developer?";
+  }
+  49.2919389978%, 49.3345119826% {
+    content: "​a c";
+    content: "​a c"/"yet another developer?";
+  }
+  49.3355119826%, 49.3780849673% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  49.3790849673%, 49.4216579521% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  49.4226579521%, 49.9663202614% {
+    content: "​";
+    content: "​"/"yet another developer?";
+  }
+  49.9673202614%, 50.0207864924% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  50.0217864924%, 50.0752527233% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  50.0762527233%, 50.1297189542% {
+    content: "​a M";
+    content: "​a M"/"yet another developer?";
+  }
+  50.1307189542%, 50.1841851852% {
+    content: "​a Mi";
+    content: "​a Mi"/"yet another developer?";
+  }
+  50.1851851852%, 50.2386514161% {
+    content: "​a Min";
+    content: "​a Min"/"yet another developer?";
+  }
+  50.2396514161%, 50.2931176471% {
+    content: "​a Mine";
+    content: "​a Mine"/"yet another developer?";
+  }
+  50.2941176471%, 50.347583878% {
+    content: "​a Minec";
+    content: "​a Minec"/"yet another developer?";
+  }
+  50.348583878%, 50.4020501089% {
+    content: "​a Minecr";
+    content: "​a Minecr"/"yet another developer?";
+  }
+  50.4030501089%, 50.4565163399% {
+    content: "​a Minecra";
+    content: "​a Minecra"/"yet another developer?";
+  }
+  50.4575163399%, 50.5109825708% {
+    content: "​a Minecraf";
+    content: "​a Minecraf"/"yet another developer?";
+  }
+  50.5119825708%, 50.5654488017% {
+    content: "​a Minecraft";
+    content: "​a Minecraft"/"yet another developer?";
+  }
+  50.5664488017%, 50.6199150327% {
+    content: "​a Minecraft ";
+    content: "​a Minecraft "/"yet another developer?";
+  }
+  50.6209150327%, 50.6743812636% {
+    content: "​a Minecraft p";
+    content: "​a Minecraft p"/"yet another developer?";
+  }
+  50.6753812636%, 50.7288474946% {
+    content: "​a Minecraft pl";
+    content: "​a Minecraft pl"/"yet another developer?";
+  }
+  50.7298474946%, 50.7833137255% {
+    content: "​a Minecraft pla";
+    content: "​a Minecraft pla"/"yet another developer?";
+  }
+  50.7843137255%, 50.8377799564% {
+    content: "​a Minecraft play";
+    content: "​a Minecraft play"/"yet another developer?";
+  }
+  50.8387799564%, 50.8922461874% {
+    content: "​a Minecraft playe";
+    content: "​a Minecraft playe"/"yet another developer?";
+  }
+  50.8932461874%, 52.0796100218% {
+    content: "​a Minecraft player";
+    content: "​a Minecraft player"/"yet another developer?";
+  }
+  52.0806100218%, 52.1231830065% {
+    content: "​a Minecraft playe";
+    content: "​a Minecraft playe"/"yet another developer?";
+  }
+  52.1241830065%, 52.1667559913% {
+    content: "​a Minecraft play";
+    content: "​a Minecraft play"/"yet another developer?";
+  }
+  52.1677559913%, 52.210328976% {
+    content: "​a Minecraft pla";
+    content: "​a Minecraft pla"/"yet another developer?";
+  }
+  52.211328976%, 52.2539019608% {
+    content: "​a Minecraft pl";
+    content: "​a Minecraft pl"/"yet another developer?";
+  }
+  52.2549019608%, 52.2974749455% {
+    content: "​a Minecraft p";
+    content: "​a Minecraft p"/"yet another developer?";
+  }
+  52.2984749455%, 52.3410479303% {
+    content: "​a Minecraft ";
+    content: "​a Minecraft "/"yet another developer?";
+  }
+  52.3420479303%, 52.384620915% {
+    content: "​a Minecraft";
+    content: "​a Minecraft"/"yet another developer?";
+  }
+  52.385620915%, 52.4281938998% {
+    content: "​a Minecraf";
+    content: "​a Minecraf"/"yet another developer?";
+  }
+  52.4291938998%, 52.4717668845% {
+    content: "​a Minecra";
+    content: "​a Minecra"/"yet another developer?";
+  }
+  52.4727668845%, 52.5153398693% {
+    content: "​a Minecr";
+    content: "​a Minecr"/"yet another developer?";
+  }
+  52.5163398693%, 52.558912854% {
+    content: "​a Minec";
+    content: "​a Minec"/"yet another developer?";
+  }
+  52.559912854%, 52.6024858388% {
+    content: "​a Mine";
+    content: "​a Mine"/"yet another developer?";
+  }
+  52.6034858388%, 52.6460588235% {
+    content: "​a Min";
+    content: "​a Min"/"yet another developer?";
+  }
+  52.6470588235%, 52.6896318083% {
+    content: "​a Mi";
+    content: "​a Mi"/"yet another developer?";
+  }
+  52.6906318083%, 52.733204793% {
+    content: "​a M";
+    content: "​a M"/"yet another developer?";
+  }
+  52.734204793%, 52.7767777778% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  52.7777777778%, 52.8203507625% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  52.8213507625%, 53.3650130719% {
+    content: "​";
+    content: "​"/"yet another developer?";
+  }
+  53.3660130719%, 53.4194793028% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  53.4204793028%, 53.4739455338% {
+    content: "​an";
+    content: "​an"/"yet another developer?";
+  }
+  53.4749455338%, 53.5284117647% {
+    content: "​an ";
+    content: "​an "/"yet another developer?";
+  }
+  53.5294117647%, 53.5828779956% {
+    content: "​an A";
+    content: "​an A"/"yet another developer?";
+  }
+  53.5838779956%, 53.6373442266% {
+    content: "​an An";
+    content: "​an An"/"yet another developer?";
+  }
+  53.6383442266%, 53.6918104575% {
+    content: "​an And";
+    content: "​an And"/"yet another developer?";
+  }
+  53.6928104575%, 53.7462766885% {
+    content: "​an Andr";
+    content: "​an Andr"/"yet another developer?";
+  }
+  53.7472766885%, 53.8007429194% {
+    content: "​an Andro";
+    content: "​an Andro"/"yet another developer?";
+  }
+  53.8017429194%, 53.8552091503% {
+    content: "​an Androi";
+    content: "​an Androi"/"yet another developer?";
+  }
+  53.8562091503%, 53.9096753813% {
+    content: "​an Android";
+    content: "​an Android"/"yet another developer?";
+  }
+  53.9106753813%, 53.9641416122% {
+    content: "​an Android ";
+    content: "​an Android "/"yet another developer?";
+  }
+  53.9651416122%, 54.0186078431% {
+    content: "​an Android d";
+    content: "​an Android d"/"yet another developer?";
+  }
+  54.0196078431%, 54.0730740741% {
+    content: "​an Android de";
+    content: "​an Android de"/"yet another developer?";
+  }
+  54.0740740741%, 54.127540305% {
+    content: "​an Android dev";
+    content: "​an Android dev"/"yet another developer?";
+  }
+  54.128540305%, 54.1820065359% {
+    content: "​an Android deve";
+    content: "​an Android deve"/"yet another developer?";
+  }
+  54.1830065359%, 54.2364727669% {
+    content: "​an Android devel";
+    content: "​an Android devel"/"yet another developer?";
+  }
+  54.2374727669%, 54.2909389978% {
+    content: "​an Android develo";
+    content: "​an Android develo"/"yet another developer?";
+  }
+  54.2919389978%, 54.3454052288% {
+    content: "​an Android develop";
+    content: "​an Android develop"/"yet another developer?";
+  }
+  54.3464052288%, 54.3998714597% {
+    content: "​an Android develope";
+    content: "​an Android develope"/"yet another developer?";
+  }
+  54.4008714597%, 55.5872352941% {
+    content: "​an Android developer";
+    content: "​an Android developer"/"yet another developer?";
+  }
+  55.5882352941%, 55.6308082789% {
+    content: "​an Android develope";
+    content: "​an Android develope"/"yet another developer?";
+  }
+  55.6318082789%, 55.6743812636% {
+    content: "​an Android develop";
+    content: "​an Android develop"/"yet another developer?";
+  }
+  55.6753812636%, 55.7179542484% {
+    content: "​an Android develo";
+    content: "​an Android develo"/"yet another developer?";
+  }
+  55.7189542484%, 55.7615272331% {
+    content: "​an Android devel";
+    content: "​an Android devel"/"yet another developer?";
+  }
+  55.7625272331%, 55.8051002179% {
+    content: "​an Android deve";
+    content: "​an Android deve"/"yet another developer?";
+  }
+  55.8061002179%, 55.8486732026% {
+    content: "​an Android dev";
+    content: "​an Android dev"/"yet another developer?";
+  }
+  55.8496732026%, 55.8922461874% {
+    content: "​an Android de";
+    content: "​an Android de"/"yet another developer?";
+  }
+  55.8932461874%, 55.9358191721% {
+    content: "​an Android d";
+    content: "​an Android d"/"yet another developer?";
+  }
+  55.9368191721%, 55.9793921569% {
+    content: "​an Android ";
+    content: "​an Android "/"yet another developer?";
+  }
+  55.9803921569%, 56.0229651416% {
+    content: "​an Android";
+    content: "​an Android"/"yet another developer?";
+  }
+  56.0239651416%, 56.0665381264% {
+    content: "​an Androi";
+    content: "​an Androi"/"yet another developer?";
+  }
+  56.0675381264%, 56.1101111111% {
+    content: "​an Andro";
+    content: "​an Andro"/"yet another developer?";
+  }
+  56.1111111111%, 56.1536840959% {
+    content: "​an Andr";
+    content: "​an Andr"/"yet another developer?";
+  }
+  56.1546840959%, 56.1972570806% {
+    content: "​an And";
+    content: "​an And"/"yet another developer?";
+  }
+  56.1982570806%, 56.2408300654% {
+    content: "​an An";
+    content: "​an An"/"yet another developer?";
+  }
+  56.2418300654%, 56.2844030501% {
+    content: "​an A";
+    content: "​an A"/"yet another developer?";
+  }
+  56.2854030501%, 56.3279760349% {
+    content: "​an ";
+    content: "​an "/"yet another developer?";
+  }
+  56.3289760349%, 56.3715490196% {
+    content: "​an";
+    content: "​an"/"yet another developer?";
+  }
+  56.3725490196%, 56.4151220044% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  56.4161220044%, 56.9597843137% {
+    content: "​";
+    content: "​"/"yet another developer?";
+  }
+  56.9607843137%, 57.0142505447% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  57.0152505447%, 57.0687167756% {
+    content: "​an";
+    content: "​an"/"yet another developer?";
+  }
+  57.0697167756%, 57.1231830065% {
+    content: "​an ";
+    content: "​an "/"yet another developer?";
+  }
+  57.1241830065%, 57.1776492375% {
+    content: "​an A";
+    content: "​an A"/"yet another developer?";
+  }
+  57.1786492375%, 57.2321154684% {
+    content: "​an AI";
+    content: "​an AI"/"yet another developer?";
+  }
+  57.2331154684%, 57.2865816993% {
+    content: "​an AI ";
+    content: "​an AI "/"yet another developer?";
+  }
+  57.2875816993%, 57.3410479303% {
+    content: "​an AI r";
+    content: "​an AI r"/"yet another developer?";
+  }
+  57.3420479303%, 57.3955141612% {
+    content: "​an AI re";
+    content: "​an AI re"/"yet another developer?";
+  }
+  57.3965141612%, 57.4499803922% {
+    content: "​an AI res";
+    content: "​an AI res"/"yet another developer?";
+  }
+  57.4509803922%, 57.5044466231% {
+    content: "​an AI rese";
+    content: "​an AI rese"/"yet another developer?";
+  }
+  57.5054466231%, 57.558912854% {
+    content: "​an AI resea";
+    content: "​an AI resea"/"yet another developer?";
+  }
+  57.559912854%, 57.613379085% {
+    content: "​an AI resear";
+    content: "​an AI resear"/"yet another developer?";
+  }
+  57.614379085%, 57.6678453159% {
+    content: "​an AI researc";
+    content: "​an AI researc"/"yet another developer?";
+  }
+  57.6688453159%, 57.7223115468% {
+    content: "​an AI research";
+    content: "​an AI research"/"yet another developer?";
+  }
+  57.7233115468%, 57.7767777778% {
+    content: "​an AI researche";
+    content: "​an AI researche"/"yet another developer?";
+  }
+  57.7777777778%, 58.9641416122% {
+    content: "​an AI researcher";
+    content: "​an AI researcher"/"yet another developer?";
+  }
+  58.9651416122%, 59.0077145969% {
+    content: "​an AI researche";
+    content: "​an AI researche"/"yet another developer?";
+  }
+  59.0087145969%, 59.0512875817% {
+    content: "​an AI research";
+    content: "​an AI research"/"yet another developer?";
+  }
+  59.0522875817%, 59.0948605664% {
+    content: "​an AI researc";
+    content: "​an AI researc"/"yet another developer?";
+  }
+  59.0958605664%, 59.1384335512% {
+    content: "​an AI resear";
+    content: "​an AI resear"/"yet another developer?";
+  }
+  59.1394335512%, 59.1820065359% {
+    content: "​an AI resea";
+    content: "​an AI resea"/"yet another developer?";
+  }
+  59.1830065359%, 59.2255795207% {
+    content: "​an AI rese";
+    content: "​an AI rese"/"yet another developer?";
+  }
+  59.2265795207%, 59.2691525054% {
+    content: "​an AI res";
+    content: "​an AI res"/"yet another developer?";
+  }
+  59.2701525054%, 59.3127254902% {
+    content: "​an AI re";
+    content: "​an AI re"/"yet another developer?";
+  }
+  59.3137254902%, 59.3562984749% {
+    content: "​an AI r";
+    content: "​an AI r"/"yet another developer?";
+  }
+  59.3572984749%, 59.3998714597% {
+    content: "​an AI ";
+    content: "​an AI "/"yet another developer?";
+  }
+  59.4008714597%, 59.4434444444% {
+    content: "​an AI";
+    content: "​an AI"/"yet another developer?";
+  }
+  59.4444444444%, 59.4870174292% {
+    content: "​an A";
+    content: "​an A"/"yet another developer?";
+  }
+  59.4880174292%, 59.5305904139% {
+    content: "​an ";
+    content: "​an "/"yet another developer?";
+  }
+  59.5315904139%, 59.5741633987% {
+    content: "​an";
+    content: "​an"/"yet another developer?";
+  }
+  59.5751633987%, 59.6177363834% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  59.6187363834%, 60.1623986928% {
+    content: "​";
+    content: "​"/"yet another developer?";
+  }
+  60.1633986928%, 60.2168649237% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  60.2178649237%, 60.2713311547% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  60.2723311547%, 60.3257973856% {
+    content: "​a d";
+    content: "​a d"/"yet another developer?";
+  }
+  60.3267973856%, 60.3802636166% {
+    content: "​a da";
+    content: "​a da"/"yet another developer?";
+  }
+  60.3812636166%, 60.4347298475% {
+    content: "​a dat";
+    content: "​a dat"/"yet another developer?";
+  }
+  60.4357298475%, 60.4891960784% {
+    content: "​a data";
+    content: "​a data"/"yet another developer?";
+  }
+  60.4901960784%, 60.5436623094% {
+    content: "​a data ";
+    content: "​a data "/"yet another developer?";
+  }
+  60.5446623094%, 60.5981285403% {
+    content: "​a data s";
+    content: "​a data s"/"yet another developer?";
+  }
+  60.5991285403%, 60.6525947712% {
+    content: "​a data sc";
+    content: "​a data sc"/"yet another developer?";
+  }
+  60.6535947712%, 60.7070610022% {
+    content: "​a data sci";
+    content: "​a data sci"/"yet another developer?";
+  }
+  60.7080610022%, 60.7615272331% {
+    content: "​a data scie";
+    content: "​a data scie"/"yet another developer?";
+  }
+  60.7625272331%, 60.8159934641% {
+    content: "​a data scien";
+    content: "​a data scien"/"yet another developer?";
+  }
+  60.8169934641%, 60.870459695% {
+    content: "​a data scient";
+    content: "​a data scient"/"yet another developer?";
+  }
+  60.871459695%, 60.9249259259% {
+    content: "​a data scienti";
+    content: "​a data scienti"/"yet another developer?";
+  }
+  60.9259259259%, 60.9793921569% {
+    content: "​a data scientis";
+    content: "​a data scientis"/"yet another developer?";
+  }
+  60.9803921569%, 62.1667559913% {
+    content: "​a data scientist";
+    content: "​a data scientist"/"yet another developer?";
+  }
+  62.1677559913%, 62.210328976% {
+    content: "​a data scientis";
+    content: "​a data scientis"/"yet another developer?";
+  }
+  62.211328976%, 62.2539019608% {
+    content: "​a data scienti";
+    content: "​a data scienti"/"yet another developer?";
+  }
+  62.2549019608%, 62.2974749455% {
+    content: "​a data scient";
+    content: "​a data scient"/"yet another developer?";
+  }
+  62.2984749455%, 62.3410479303% {
+    content: "​a data scien";
+    content: "​a data scien"/"yet another developer?";
+  }
+  62.3420479303%, 62.384620915% {
+    content: "​a data scie";
+    content: "​a data scie"/"yet another developer?";
+  }
+  62.385620915%, 62.4281938998% {
+    content: "​a data sci";
+    content: "​a data sci"/"yet another developer?";
+  }
+  62.4291938998%, 62.4717668845% {
+    content: "​a data sc";
+    content: "​a data sc"/"yet another developer?";
+  }
+  62.4727668845%, 62.5153398693% {
+    content: "​a data s";
+    content: "​a data s"/"yet another developer?";
+  }
+  62.5163398693%, 62.558912854% {
+    content: "​a data ";
+    content: "​a data "/"yet another developer?";
+  }
+  62.559912854%, 62.6024858388% {
+    content: "​a data";
+    content: "​a data"/"yet another developer?";
+  }
+  62.6034858388%, 62.6460588235% {
+    content: "​a dat";
+    content: "​a dat"/"yet another developer?";
+  }
+  62.6470588235%, 62.6896318083% {
+    content: "​a da";
+    content: "​a da"/"yet another developer?";
+  }
+  62.6906318083%, 62.733204793% {
+    content: "​a d";
+    content: "​a d"/"yet another developer?";
+  }
+  62.734204793%, 62.7767777778% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  62.7777777778%, 62.8203507625% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  62.8213507625%, 63.3650130719% {
+    content: "​";
+    content: "​"/"yet another developer?";
+  }
+  63.3660130719%, 63.4194793028% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  63.4204793028%, 63.4739455338% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  63.4749455338%, 63.5284117647% {
+    content: "​a m";
+    content: "​a m"/"yet another developer?";
+  }
+  63.5294117647%, 63.5828779956% {
+    content: "​a ma";
+    content: "​a ma"/"yet another developer?";
+  }
+  63.5838779956%, 63.6373442266% {
+    content: "​a mac";
+    content: "​a mac"/"yet another developer?";
+  }
+  63.6383442266%, 63.6918104575% {
+    content: "​a mach";
+    content: "​a mach"/"yet another developer?";
+  }
+  63.6928104575%, 63.7462766885% {
+    content: "​a machi";
+    content: "​a machi"/"yet another developer?";
+  }
+  63.7472766885%, 63.8007429194% {
+    content: "​a machin";
+    content: "​a machin"/"yet another developer?";
+  }
+  63.8017429194%, 63.8552091503% {
+    content: "​a machine";
+    content: "​a machine"/"yet another developer?";
+  }
+  63.8562091503%, 63.9096753813% {
+    content: "​a machine ";
+    content: "​a machine "/"yet another developer?";
+  }
+  63.9106753813%, 63.9641416122% {
+    content: "​a machine l";
+    content: "​a machine l"/"yet another developer?";
+  }
+  63.9651416122%, 64.0186078431% {
+    content: "​a machine le";
+    content: "​a machine le"/"yet another developer?";
+  }
+  64.0196078431%, 64.0730740741% {
+    content: "​a machine lea";
+    content: "​a machine lea"/"yet another developer?";
+  }
+  64.0740740741%, 64.127540305% {
+    content: "​a machine lear";
+    content: "​a machine lear"/"yet another developer?";
+  }
+  64.128540305%, 64.1820065359% {
+    content: "​a machine learn";
+    content: "​a machine learn"/"yet another developer?";
+  }
+  64.1830065359%, 64.2364727669% {
+    content: "​a machine learni";
+    content: "​a machine learni"/"yet another developer?";
+  }
+  64.2374727669%, 64.2909389978% {
+    content: "​a machine learnin";
+    content: "​a machine learnin"/"yet another developer?";
+  }
+  64.2919389978%, 64.3454052288% {
+    content: "​a machine learning";
+    content: "​a machine learning"/"yet another developer?";
+  }
+  64.3464052288%, 64.3998714597% {
+    content: "​a machine learning ";
+    content: "​a machine learning "/"yet another developer?";
+  }
+  64.4008714597%, 64.4543376906% {
+    content: "​a machine learning e";
+    content: "​a machine learning e"/"yet another developer?";
+  }
+  64.4553376906%, 64.5088039216% {
+    content: "​a machine learning en";
+    content: "​a machine learning en"/"yet another developer?";
+  }
+  64.5098039216%, 64.5632701525% {
+    content: "​a machine learning eng";
+    content: "​a machine learning eng"/"yet another developer?";
+  }
+  64.5642701525%, 64.6177363834% {
+    content: "​a machine learning engi";
+    content: "​a machine learning engi"/"yet another developer?";
+  }
+  64.6187363834%, 64.6722026144% {
+    content: "​a machine learning engin";
+    content: "​a machine learning engin"/"yet another developer?";
+  }
+  64.6732026144%, 64.7266688453% {
+    content: "​a machine learning engine";
+    content: "​a machine learning engine"/"yet another developer?";
+  }
+  64.7276688453%, 64.7811350763% {
+    content: "​a machine learning enginee";
+    content: "​a machine learning enginee"/"yet another developer?";
+  }
+  64.7821350763%, 65.9684989107% {
+    content: "​a machine learning engineer";
+    content: "​a machine learning engineer"/"yet another developer?";
+  }
+  65.9694989107%, 66.0120718954% {
+    content: "​a machine learning enginee";
+    content: "​a machine learning enginee"/"yet another developer?";
+  }
+  66.0130718954%, 66.0556448802% {
+    content: "​a machine learning engine";
+    content: "​a machine learning engine"/"yet another developer?";
+  }
+  66.0566448802%, 66.0992178649% {
+    content: "​a machine learning engin";
+    content: "​a machine learning engin"/"yet another developer?";
+  }
+  66.1002178649%, 66.1427908497% {
+    content: "​a machine learning engi";
+    content: "​a machine learning engi"/"yet another developer?";
+  }
+  66.1437908497%, 66.1863638344% {
+    content: "​a machine learning eng";
+    content: "​a machine learning eng"/"yet another developer?";
+  }
+  66.1873638344%, 66.2299368192% {
+    content: "​a machine learning en";
+    content: "​a machine learning en"/"yet another developer?";
+  }
+  66.2309368192%, 66.2735098039% {
+    content: "​a machine learning e";
+    content: "​a machine learning e"/"yet another developer?";
+  }
+  66.2745098039%, 66.3170827887% {
+    content: "​a machine learning ";
+    content: "​a machine learning "/"yet another developer?";
+  }
+  66.3180827887%, 66.3606557734% {
+    content: "​a machine learning";
+    content: "​a machine learning"/"yet another developer?";
+  }
+  66.3616557734%, 66.4042287582% {
+    content: "​a machine learnin";
+    content: "​a machine learnin"/"yet another developer?";
+  }
+  66.4052287582%, 66.4478017429% {
+    content: "​a machine learni";
+    content: "​a machine learni"/"yet another developer?";
+  }
+  66.4488017429%, 66.4913747277% {
+    content: "​a machine learn";
+    content: "​a machine learn"/"yet another developer?";
+  }
+  66.4923747277%, 66.5349477124% {
+    content: "​a machine lear";
+    content: "​a machine lear"/"yet another developer?";
+  }
+  66.5359477124%, 66.5785206972% {
+    content: "​a machine lea";
+    content: "​a machine lea"/"yet another developer?";
+  }
+  66.5795206972%, 66.6220936819% {
+    content: "​a machine le";
+    content: "​a machine le"/"yet another developer?";
+  }
+  66.6230936819%, 66.6656666667% {
+    content: "​a machine l";
+    content: "​a machine l"/"yet another developer?";
+  }
+  66.6666666667%, 66.7092396514% {
+    content: "​a machine ";
+    content: "​a machine "/"yet another developer?";
+  }
+  66.7102396514%, 66.7528126362% {
+    content: "​a machine";
+    content: "​a machine"/"yet another developer?";
+  }
+  66.7538126362%, 66.7963856209% {
+    content: "​a machin";
+    content: "​a machin"/"yet another developer?";
+  }
+  66.7973856209%, 66.8399586057% {
+    content: "​a machi";
+    content: "​a machi"/"yet another developer?";
+  }
+  66.8409586057%, 66.8835315904% {
+    content: "​a mach";
+    content: "​a mach"/"yet another developer?";
+  }
+  66.8845315904%, 66.9271045752% {
+    content: "​a mac";
+    content: "​a mac"/"yet another developer?";
+  }
+  66.9281045752%, 66.9706775599% {
+    content: "​a ma";
+    content: "​a ma"/"yet another developer?";
+  }
+  66.9716775599%, 67.0142505447% {
+    content: "​a m";
+    content: "​a m"/"yet another developer?";
+  }
+  67.0152505447%, 67.0578235294% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  67.0588235294%, 67.1013965142% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  67.1023965142%, 67.6460588235% {
+    content: "​";
+    content: "​"/"yet another developer?";
+  }
+  67.6470588235%, 67.7005250545% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  67.7015250545%, 67.7549912854% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  67.7559912854%, 67.8094575163% {
+    content: "​a b";
+    content: "​a b"/"yet another developer?";
+  }
+  67.8104575163%, 67.8639237473% {
+    content: "​a ba";
+    content: "​a ba"/"yet another developer?";
+  }
+  67.8649237473%, 67.9183899782% {
+    content: "​a bac";
+    content: "​a bac"/"yet another developer?";
+  }
+  67.9193899782%, 67.9728562092% {
+    content: "​a back";
+    content: "​a back"/"yet another developer?";
+  }
+  67.9738562092%, 68.0273224401% {
+    content: "​a back-";
+    content: "​a back-"/"yet another developer?";
+  }
+  68.0283224401%, 68.081788671% {
+    content: "​a back-e";
+    content: "​a back-e"/"yet another developer?";
+  }
+  68.082788671%, 68.136254902% {
+    content: "​a back-en";
+    content: "​a back-en"/"yet another developer?";
+  }
+  68.137254902%, 68.1907211329% {
+    content: "​a back-end";
+    content: "​a back-end"/"yet another developer?";
+  }
+  68.1917211329%, 68.2451873638% {
+    content: "​a back-end ";
+    content: "​a back-end "/"yet another developer?";
+  }
+  68.2461873638%, 68.2996535948% {
+    content: "​a back-end d";
+    content: "​a back-end d"/"yet another developer?";
+  }
+  68.3006535948%, 68.3541198257% {
+    content: "​a back-end de";
+    content: "​a back-end de"/"yet another developer?";
+  }
+  68.3551198257%, 68.4085860566% {
+    content: "​a back-end dev";
+    content: "​a back-end dev"/"yet another developer?";
+  }
+  68.4095860566%, 68.4630522876% {
+    content: "​a back-end deve";
+    content: "​a back-end deve"/"yet another developer?";
+  }
+  68.4640522876%, 68.5175185185% {
+    content: "​a back-end devel";
+    content: "​a back-end devel"/"yet another developer?";
+  }
+  68.5185185185%, 68.5719847495% {
+    content: "​a back-end develo";
+    content: "​a back-end develo"/"yet another developer?";
+  }
+  68.5729847495%, 68.6264509804% {
+    content: "​a back-end develop";
+    content: "​a back-end develop"/"yet another developer?";
+  }
+  68.6274509804%, 68.6809172113% {
+    content: "​a back-end develope";
+    content: "​a back-end develope"/"yet another developer?";
+  }
+  68.6819172113%, 69.8682810458% {
+    content: "​a back-end developer";
+    content: "​a back-end developer"/"yet another developer?";
+  }
+  69.8692810458%, 69.9118540305% {
+    content: "​a back-end develope";
+    content: "​a back-end develope"/"yet another developer?";
+  }
+  69.9128540305%, 69.9554270153% {
+    content: "​a back-end develop";
+    content: "​a back-end develop"/"yet another developer?";
+  }
+  69.9564270153%, 69.999% {
+    content: "​a back-end develo";
+    content: "​a back-end develo"/"yet another developer?";
+  }
+  70%, 70.0425729847% {
+    content: "​a back-end devel";
+    content: "​a back-end devel"/"yet another developer?";
+  }
+  70.0435729847%, 70.0861459695% {
+    content: "​a back-end deve";
+    content: "​a back-end deve"/"yet another developer?";
+  }
+  70.0871459695%, 70.1297189542% {
+    content: "​a back-end dev";
+    content: "​a back-end dev"/"yet another developer?";
+  }
+  70.1307189542%, 70.173291939% {
+    content: "​a back-end de";
+    content: "​a back-end de"/"yet another developer?";
+  }
+  70.174291939%, 70.2168649237% {
+    content: "​a back-end d";
+    content: "​a back-end d"/"yet another developer?";
+  }
+  70.2178649237%, 70.2604379085% {
+    content: "​a back-end ";
+    content: "​a back-end "/"yet another developer?";
+  }
+  70.2614379085%, 70.3040108932% {
+    content: "​a back-end";
+    content: "​a back-end"/"yet another developer?";
+  }
+  70.3050108932%, 70.347583878% {
+    content: "​a back-en";
+    content: "​a back-en"/"yet another developer?";
+  }
+  70.348583878%, 70.3911568627% {
+    content: "​a back-e";
+    content: "​a back-e"/"yet another developer?";
+  }
+  70.3921568627%, 70.4347298475% {
+    content: "​a back-";
+    content: "​a back-"/"yet another developer?";
+  }
+  70.4357298475%, 70.4783028322% {
+    content: "​a back";
+    content: "​a back"/"yet another developer?";
+  }
+  70.4793028322%, 70.521875817% {
+    content: "​a bac";
+    content: "​a bac"/"yet another developer?";
+  }
+  70.522875817%, 70.5654488017% {
+    content: "​a ba";
+    content: "​a ba"/"yet another developer?";
+  }
+  70.5664488017%, 70.6090217865% {
+    content: "​a b";
+    content: "​a b"/"yet another developer?";
+  }
+  70.6100217865%, 70.6525947712% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  70.6535947712%, 70.696167756% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  70.697167756%, 71.2408300654% {
+    content: "​";
+    content: "​"/"yet another developer?";
+  }
+  71.2418300654%, 71.2952962963% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  71.2962962963%, 71.3497625272% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  71.3507625272%, 71.4042287582% {
+    content: "​a b";
+    content: "​a b"/"yet another developer?";
+  }
+  71.4052287582%, 71.4586949891% {
+    content: "​a bl";
+    content: "​a bl"/"yet another developer?";
+  }
+  71.4596949891%, 71.51316122% {
+    content: "​a blo";
+    content: "​a blo"/"yet another developer?";
+  }
+  71.51416122%, 71.567627451% {
+    content: "​a bloc";
+    content: "​a bloc"/"yet another developer?";
+  }
+  71.568627451%, 71.6220936819% {
+    content: "​a block";
+    content: "​a block"/"yet another developer?";
+  }
+  71.6230936819%, 71.6765599129% {
+    content: "​a blockc";
+    content: "​a blockc"/"yet another developer?";
+  }
+  71.6775599129%, 71.7310261438% {
+    content: "​a blockch";
+    content: "​a blockch"/"yet another developer?";
+  }
+  71.7320261438%, 71.7854923747% {
+    content: "​a blockcha";
+    content: "​a blockcha"/"yet another developer?";
+  }
+  71.7864923747%, 71.8399586057% {
+    content: "​a blockchai";
+    content: "​a blockchai"/"yet another developer?";
+  }
+  71.8409586057%, 71.8944248366% {
+    content: "​a blockchain";
+    content: "​a blockchain"/"yet another developer?";
+  }
+  71.8954248366%, 71.9488910675% {
+    content: "​a blockchain ";
+    content: "​a blockchain "/"yet another developer?";
+  }
+  71.9498910675%, 72.0033572985% {
+    content: "​a blockchain d";
+    content: "​a blockchain d"/"yet another developer?";
+  }
+  72.0043572985%, 72.0578235294% {
+    content: "​a blockchain de";
+    content: "​a blockchain de"/"yet another developer?";
+  }
+  72.0588235294%, 72.1122897603% {
+    content: "​a blockchain dev";
+    content: "​a blockchain dev"/"yet another developer?";
+  }
+  72.1132897603%, 72.1667559913% {
+    content: "​a blockchain deve";
+    content: "​a blockchain deve"/"yet another developer?";
+  }
+  72.1677559913%, 72.2212222222% {
+    content: "​a blockchain devel";
+    content: "​a blockchain devel"/"yet another developer?";
+  }
+  72.2222222222%, 72.2756884532% {
+    content: "​a blockchain develo";
+    content: "​a blockchain develo"/"yet another developer?";
+  }
+  72.2766884532%, 72.3301546841% {
+    content: "​a blockchain develop";
+    content: "​a blockchain develop"/"yet another developer?";
+  }
+  72.3311546841%, 72.384620915% {
+    content: "​a blockchain develope";
+    content: "​a blockchain develope"/"yet another developer?";
+  }
+  72.385620915%, 73.5719847495% {
+    content: "​a blockchain developer";
+    content: "​a blockchain developer"/"yet another developer?";
+  }
+  73.5729847495%, 73.6155577342% {
+    content: "​a blockchain develope";
+    content: "​a blockchain develope"/"yet another developer?";
+  }
+  73.6165577342%, 73.659130719% {
+    content: "​a blockchain develop";
+    content: "​a blockchain develop"/"yet another developer?";
+  }
+  73.660130719%, 73.7027037037% {
+    content: "​a blockchain develo";
+    content: "​a blockchain develo"/"yet another developer?";
+  }
+  73.7037037037%, 73.7462766885% {
+    content: "​a blockchain devel";
+    content: "​a blockchain devel"/"yet another developer?";
+  }
+  73.7472766885%, 73.7898496732% {
+    content: "​a blockchain deve";
+    content: "​a blockchain deve"/"yet another developer?";
+  }
+  73.7908496732%, 73.833422658% {
+    content: "​a blockchain dev";
+    content: "​a blockchain dev"/"yet another developer?";
+  }
+  73.834422658%, 73.8769956427% {
+    content: "​a blockchain de";
+    content: "​a blockchain de"/"yet another developer?";
+  }
+  73.8779956427%, 73.9205686275% {
+    content: "​a blockchain d";
+    content: "​a blockchain d"/"yet another developer?";
+  }
+  73.9215686275%, 73.9641416122% {
+    content: "​a blockchain ";
+    content: "​a blockchain "/"yet another developer?";
+  }
+  73.9651416122%, 74.0077145969% {
+    content: "​a blockchain";
+    content: "​a blockchain"/"yet another developer?";
+  }
+  74.0087145969%, 74.0512875817% {
+    content: "​a blockchai";
+    content: "​a blockchai"/"yet another developer?";
+  }
+  74.0522875817%, 74.0948605664% {
+    content: "​a blockcha";
+    content: "​a blockcha"/"yet another developer?";
+  }
+  74.0958605664%, 74.1384335512% {
+    content: "​a blockch";
+    content: "​a blockch"/"yet another developer?";
+  }
+  74.1394335512%, 74.1820065359% {
+    content: "​a blockc";
+    content: "​a blockc"/"yet another developer?";
+  }
+  74.1830065359%, 74.2255795207% {
+    content: "​a block";
+    content: "​a block"/"yet another developer?";
+  }
+  74.2265795207%, 74.2691525054% {
+    content: "​a bloc";
+    content: "​a bloc"/"yet another developer?";
+  }
+  74.2701525054%, 74.3127254902% {
+    content: "​a blo";
+    content: "​a blo"/"yet another developer?";
+  }
+  74.3137254902%, 74.3562984749% {
+    content: "​a bl";
+    content: "​a bl"/"yet another developer?";
+  }
+  74.3572984749%, 74.3998714597% {
+    content: "​a b";
+    content: "​a b"/"yet another developer?";
+  }
+  74.4008714597%, 74.4434444444% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  74.4444444444%, 74.4870174292% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  74.4880174292%, 75.0316797386% {
+    content: "​";
+    content: "​"/"yet another developer?";
+  }
+  75.0326797386%, 75.0861459695% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  75.0871459695%, 75.1406122004% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  75.1416122004%, 75.1950784314% {
+    content: "​a c";
+    content: "​a c"/"yet another developer?";
+  }
+  75.1960784314%, 75.2495446623% {
+    content: "​a cy";
+    content: "​a cy"/"yet another developer?";
+  }
+  75.2505446623%, 75.3040108932% {
+    content: "​a cyb";
+    content: "​a cyb"/"yet another developer?";
+  }
+  75.3050108932%, 75.3584771242% {
+    content: "​a cybe";
+    content: "​a cybe"/"yet another developer?";
+  }
+  75.3594771242%, 75.4129433551% {
+    content: "​a cyber";
+    content: "​a cyber"/"yet another developer?";
+  }
+  75.4139433551%, 75.4674095861% {
+    content: "​a cybers";
+    content: "​a cybers"/"yet another developer?";
+  }
+  75.4684095861%, 75.521875817% {
+    content: "​a cyberse";
+    content: "​a cyberse"/"yet another developer?";
+  }
+  75.522875817%, 75.5763420479% {
+    content: "​a cybersec";
+    content: "​a cybersec"/"yet another developer?";
+  }
+  75.5773420479%, 75.6308082789% {
+    content: "​a cybersecu";
+    content: "​a cybersecu"/"yet another developer?";
+  }
+  75.6318082789%, 75.6852745098% {
+    content: "​a cybersecur";
+    content: "​a cybersecur"/"yet another developer?";
+  }
+  75.6862745098%, 75.7397407407% {
+    content: "​a cybersecuri";
+    content: "​a cybersecuri"/"yet another developer?";
+  }
+  75.7407407407%, 75.7942069717% {
+    content: "​a cybersecurit";
+    content: "​a cybersecurit"/"yet another developer?";
+  }
+  75.7952069717%, 75.8486732026% {
+    content: "​a cybersecurity";
+    content: "​a cybersecurity"/"yet another developer?";
+  }
+  75.8496732026%, 75.9031394336% {
+    content: "​a cybersecurity ";
+    content: "​a cybersecurity "/"yet another developer?";
+  }
+  75.9041394336%, 75.9576056645% {
+    content: "​a cybersecurity e";
+    content: "​a cybersecurity e"/"yet another developer?";
+  }
+  75.9586056645%, 76.0120718954% {
+    content: "​a cybersecurity ex";
+    content: "​a cybersecurity ex"/"yet another developer?";
+  }
+  76.0130718954%, 76.0665381264% {
+    content: "​a cybersecurity exp";
+    content: "​a cybersecurity exp"/"yet another developer?";
+  }
+  76.0675381264%, 76.1210043573% {
+    content: "​a cybersecurity expe";
+    content: "​a cybersecurity expe"/"yet another developer?";
+  }
+  76.1220043573%, 76.1754705882% {
+    content: "​a cybersecurity exper";
+    content: "​a cybersecurity exper"/"yet another developer?";
+  }
+  76.1764705882%, 77.3628344227% {
+    content: "​a cybersecurity expert";
+    content: "​a cybersecurity expert"/"yet another developer?";
+  }
+  77.3638344227%, 77.4064074074% {
+    content: "​a cybersecurity exper";
+    content: "​a cybersecurity exper"/"yet another developer?";
+  }
+  77.4074074074%, 77.4499803922% {
+    content: "​a cybersecurity expe";
+    content: "​a cybersecurity expe"/"yet another developer?";
+  }
+  77.4509803922%, 77.4935533769% {
+    content: "​a cybersecurity exp";
+    content: "​a cybersecurity exp"/"yet another developer?";
+  }
+  77.4945533769%, 77.5371263617% {
+    content: "​a cybersecurity ex";
+    content: "​a cybersecurity ex"/"yet another developer?";
+  }
+  77.5381263617%, 77.5806993464% {
+    content: "​a cybersecurity e";
+    content: "​a cybersecurity e"/"yet another developer?";
+  }
+  77.5816993464%, 77.6242723312% {
+    content: "​a cybersecurity ";
+    content: "​a cybersecurity "/"yet another developer?";
+  }
+  77.6252723312%, 77.6678453159% {
+    content: "​a cybersecurity";
+    content: "​a cybersecurity"/"yet another developer?";
+  }
+  77.6688453159%, 77.7114183007% {
+    content: "​a cybersecurit";
+    content: "​a cybersecurit"/"yet another developer?";
+  }
+  77.7124183007%, 77.7549912854% {
+    content: "​a cybersecuri";
+    content: "​a cybersecuri"/"yet another developer?";
+  }
+  77.7559912854%, 77.7985642702% {
+    content: "​a cybersecur";
+    content: "​a cybersecur"/"yet another developer?";
+  }
+  77.7995642702%, 77.8421372549% {
+    content: "​a cybersecu";
+    content: "​a cybersecu"/"yet another developer?";
+  }
+  77.8431372549%, 77.8857102397% {
+    content: "​a cybersec";
+    content: "​a cybersec"/"yet another developer?";
+  }
+  77.8867102397%, 77.9292832244% {
+    content: "​a cyberse";
+    content: "​a cyberse"/"yet another developer?";
+  }
+  77.9302832244%, 77.9728562092% {
+    content: "​a cybers";
+    content: "​a cybers"/"yet another developer?";
+  }
+  77.9738562092%, 78.0164291939% {
+    content: "​a cyber";
+    content: "​a cyber"/"yet another developer?";
+  }
+  78.0174291939%, 78.0600021786% {
+    content: "​a cybe";
+    content: "​a cybe"/"yet another developer?";
+  }
+  78.0610021786%, 78.1035751634% {
+    content: "​a cyb";
+    content: "​a cyb"/"yet another developer?";
+  }
+  78.1045751634%, 78.1471481481% {
+    content: "​a cy";
+    content: "​a cy"/"yet another developer?";
+  }
+  78.1481481481%, 78.1907211329% {
+    content: "​a c";
+    content: "​a c"/"yet another developer?";
+  }
+  78.1917211329%, 78.2342941176% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  78.2352941176%, 78.2778671024% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  78.2788671024%, 78.8225294118% {
+    content: "​";
+    content: "​"/"yet another developer?";
+  }
+  78.8235294118%, 78.8769956427% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  78.8779956427%, 78.9314618736% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  78.9324618736%, 78.9859281046% {
+    content: "​a n";
+    content: "​a n"/"yet another developer?";
+  }
+  78.9869281046%, 79.0403943355% {
+    content: "​a ne";
+    content: "​a ne"/"yet another developer?";
+  }
+  79.0413943355%, 79.0948605664% {
+    content: "​a net";
+    content: "​a net"/"yet another developer?";
+  }
+  79.0958605664%, 79.1493267974% {
+    content: "​a netw";
+    content: "​a netw"/"yet another developer?";
+  }
+  79.1503267974%, 79.2037930283% {
+    content: "​a netwo";
+    content: "​a netwo"/"yet another developer?";
+  }
+  79.2047930283%, 79.2582592593% {
+    content: "​a networ";
+    content: "​a networ"/"yet another developer?";
+  }
+  79.2592592593%, 79.3127254902% {
+    content: "​a network";
+    content: "​a network"/"yet another developer?";
+  }
+  79.3137254902%, 79.3671917211% {
+    content: "​a network ";
+    content: "​a network "/"yet another developer?";
+  }
+  79.3681917211%, 79.4216579521% {
+    content: "​a network a";
+    content: "​a network a"/"yet another developer?";
+  }
+  79.4226579521%, 79.476124183% {
+    content: "​a network ad";
+    content: "​a network ad"/"yet another developer?";
+  }
+  79.477124183%, 79.5305904139% {
+    content: "​a network adm";
+    content: "​a network adm"/"yet another developer?";
+  }
+  79.5315904139%, 79.5850566449% {
+    content: "​a network admi";
+    content: "​a network admi"/"yet another developer?";
+  }
+  79.5860566449%, 79.6395228758% {
+    content: "​a network admin";
+    content: "​a network admin"/"yet another developer?";
+  }
+  79.6405228758%, 79.6939891068% {
+    content: "​a network admini";
+    content: "​a network admini"/"yet another developer?";
+  }
+  79.6949891068%, 79.7484553377% {
+    content: "​a network adminis";
+    content: "​a network adminis"/"yet another developer?";
+  }
+  79.7494553377%, 79.8029215686% {
+    content: "​a network administ";
+    content: "​a network administ"/"yet another developer?";
+  }
+  79.8039215686%, 79.8573877996% {
+    content: "​a network administr";
+    content: "​a network administr"/"yet another developer?";
+  }
+  79.8583877996%, 79.9118540305% {
+    content: "​a network administra";
+    content: "​a network administra"/"yet another developer?";
+  }
+  79.9128540305%, 79.9663202614% {
+    content: "​a network administrat";
+    content: "​a network administrat"/"yet another developer?";
+  }
+  79.9673202614%, 80.0207864924% {
+    content: "​a network administrato";
+    content: "​a network administrato"/"yet another developer?";
+  }
+  80.0217864924%, 81.2081503268% {
+    content: "​a network administrator";
+    content: "​a network administrator"/"yet another developer?";
+  }
+  81.2091503268%, 81.2517233115% {
+    content: "​a network administrato";
+    content: "​a network administrato"/"yet another developer?";
+  }
+  81.2527233115%, 81.2952962963% {
+    content: "​a network administrat";
+    content: "​a network administrat"/"yet another developer?";
+  }
+  81.2962962963%, 81.338869281% {
+    content: "​a network administra";
+    content: "​a network administra"/"yet another developer?";
+  }
+  81.339869281%, 81.3824422658% {
+    content: "​a network administr";
+    content: "​a network administr"/"yet another developer?";
+  }
+  81.3834422658%, 81.4260152505% {
+    content: "​a network administ";
+    content: "​a network administ"/"yet another developer?";
+  }
+  81.4270152505%, 81.4695882353% {
+    content: "​a network adminis";
+    content: "​a network adminis"/"yet another developer?";
+  }
+  81.4705882353%, 81.51316122% {
+    content: "​a network admini";
+    content: "​a network admini"/"yet another developer?";
+  }
+  81.51416122%, 81.5567342048% {
+    content: "​a network admin";
+    content: "​a network admin"/"yet another developer?";
+  }
+  81.5577342048%, 81.6003071895% {
+    content: "​a network admi";
+    content: "​a network admi"/"yet another developer?";
+  }
+  81.6013071895%, 81.6438801743% {
+    content: "​a network adm";
+    content: "​a network adm"/"yet another developer?";
+  }
+  81.6448801743%, 81.687453159% {
+    content: "​a network ad";
+    content: "​a network ad"/"yet another developer?";
+  }
+  81.688453159%, 81.7310261438% {
+    content: "​a network a";
+    content: "​a network a"/"yet another developer?";
+  }
+  81.7320261438%, 81.7745991285% {
+    content: "​a network ";
+    content: "​a network "/"yet another developer?";
+  }
+  81.7755991285%, 81.8181721133% {
+    content: "​a network";
+    content: "​a network"/"yet another developer?";
+  }
+  81.8191721133%, 81.861745098% {
+    content: "​a networ";
+    content: "​a networ"/"yet another developer?";
+  }
+  81.862745098%, 81.9053180828% {
+    content: "​a netwo";
+    content: "​a netwo"/"yet another developer?";
+  }
+  81.9063180828%, 81.9488910675% {
+    content: "​a netw";
+    content: "​a netw"/"yet another developer?";
+  }
+  81.9498910675%, 81.9924640523% {
+    content: "​a net";
+    content: "​a net"/"yet another developer?";
+  }
+  81.9934640523%, 82.036037037% {
+    content: "​a ne";
+    content: "​a ne"/"yet another developer?";
+  }
+  82.037037037%, 82.0796100218% {
+    content: "​a n";
+    content: "​a n"/"yet another developer?";
+  }
+  82.0806100218%, 82.1231830065% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  82.1241830065%, 82.1667559913% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  82.1677559913%, 82.7114183007% {
+    content: "​";
+    content: "​"/"yet another developer?";
+  }
+  82.7124183007%, 82.7658845316% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  82.7668845316%, 82.8203507625% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  82.8213507625%, 82.8748169935% {
+    content: "​a s";
+    content: "​a s"/"yet another developer?";
+  }
+  82.8758169935%, 82.9292832244% {
+    content: "​a sy";
+    content: "​a sy"/"yet another developer?";
+  }
+  82.9302832244%, 82.9837494553% {
+    content: "​a sys";
+    content: "​a sys"/"yet another developer?";
+  }
+  82.9847494553%, 83.0382156863% {
+    content: "​a syst";
+    content: "​a syst"/"yet another developer?";
+  }
+  83.0392156863%, 83.0926819172% {
+    content: "​a syste";
+    content: "​a syste"/"yet another developer?";
+  }
+  83.0936819172%, 83.1471481481% {
+    content: "​a system";
+    content: "​a system"/"yet another developer?";
+  }
+  83.1481481481%, 83.2016143791% {
+    content: "​a system ";
+    content: "​a system "/"yet another developer?";
+  }
+  83.2026143791%, 83.25608061% {
+    content: "​a system a";
+    content: "​a system a"/"yet another developer?";
+  }
+  83.25708061%, 83.310546841% {
+    content: "​a system ar";
+    content: "​a system ar"/"yet another developer?";
+  }
+  83.311546841%, 83.3650130719% {
+    content: "​a system arc";
+    content: "​a system arc"/"yet another developer?";
+  }
+  83.3660130719%, 83.4194793028% {
+    content: "​a system arch";
+    content: "​a system arch"/"yet another developer?";
+  }
+  83.4204793028%, 83.4739455338% {
+    content: "​a system archi";
+    content: "​a system archi"/"yet another developer?";
+  }
+  83.4749455338%, 83.5284117647% {
+    content: "​a system archit";
+    content: "​a system archit"/"yet another developer?";
+  }
+  83.5294117647%, 83.5828779956% {
+    content: "​a system archite";
+    content: "​a system archite"/"yet another developer?";
+  }
+  83.5838779956%, 83.6373442266% {
+    content: "​a system architec";
+    content: "​a system architec"/"yet another developer?";
+  }
+  83.6383442266%, 84.824708061% {
+    content: "​a system architect";
+    content: "​a system architect"/"yet another developer?";
+  }
+  84.825708061%, 84.8682810458% {
+    content: "​a system architec";
+    content: "​a system architec"/"yet another developer?";
+  }
+  84.8692810458%, 84.9118540305% {
+    content: "​a system archite";
+    content: "​a system archite"/"yet another developer?";
+  }
+  84.9128540305%, 84.9554270153% {
+    content: "​a system archit";
+    content: "​a system archit"/"yet another developer?";
+  }
+  84.9564270153%, 84.999% {
+    content: "​a system archi";
+    content: "​a system archi"/"yet another developer?";
+  }
+  85%, 85.0425729847% {
+    content: "​a system arch";
+    content: "​a system arch"/"yet another developer?";
+  }
+  85.0435729847%, 85.0861459695% {
+    content: "​a system arc";
+    content: "​a system arc"/"yet another developer?";
+  }
+  85.0871459695%, 85.1297189542% {
+    content: "​a system ar";
+    content: "​a system ar"/"yet another developer?";
+  }
+  85.1307189542%, 85.173291939% {
+    content: "​a system a";
+    content: "​a system a"/"yet another developer?";
+  }
+  85.174291939%, 85.2168649237% {
+    content: "​a system ";
+    content: "​a system "/"yet another developer?";
+  }
+  85.2178649237%, 85.2604379085% {
+    content: "​a system";
+    content: "​a system"/"yet another developer?";
+  }
+  85.2614379085%, 85.3040108932% {
+    content: "​a syste";
+    content: "​a syste"/"yet another developer?";
+  }
+  85.3050108932%, 85.347583878% {
+    content: "​a syst";
+    content: "​a syst"/"yet another developer?";
+  }
+  85.348583878%, 85.3911568627% {
+    content: "​a sys";
+    content: "​a sys"/"yet another developer?";
+  }
+  85.3921568627%, 85.4347298475% {
+    content: "​a sy";
+    content: "​a sy"/"yet another developer?";
+  }
+  85.4357298475%, 85.4783028322% {
+    content: "​a s";
+    content: "​a s"/"yet another developer?";
+  }
+  85.4793028322%, 85.521875817% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  85.522875817%, 85.5654488017% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  85.5664488017%, 86.1101111111% {
+    content: "​";
+    content: "​"/"yet another developer?";
+  }
+  86.1111111111%, 86.164577342% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  86.165577342%, 86.219043573% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  86.220043573%, 86.2735098039% {
+    content: "​a D";
+    content: "​a D"/"yet another developer?";
+  }
+  86.2745098039%, 86.3279760349% {
+    content: "​a De";
+    content: "​a De"/"yet another developer?";
+  }
+  86.3289760349%, 86.3824422658% {
+    content: "​a Dev";
+    content: "​a Dev"/"yet another developer?";
+  }
+  86.3834422658%, 86.4369084967% {
+    content: "​a DevO";
+    content: "​a DevO"/"yet another developer?";
+  }
+  86.4379084967%, 86.4913747277% {
+    content: "​a DevOp";
+    content: "​a DevOp"/"yet another developer?";
+  }
+  86.4923747277%, 86.5458409586% {
+    content: "​a DevOps";
+    content: "​a DevOps"/"yet another developer?";
+  }
+  86.5468409586%, 86.6003071895% {
+    content: "​a DevOps ";
+    content: "​a DevOps "/"yet another developer?";
+  }
+  86.6013071895%, 86.6547734205% {
+    content: "​a DevOps e";
+    content: "​a DevOps e"/"yet another developer?";
+  }
+  86.6557734205%, 86.7092396514% {
+    content: "​a DevOps en";
+    content: "​a DevOps en"/"yet another developer?";
+  }
+  86.7102396514%, 86.7637058824% {
+    content: "​a DevOps eng";
+    content: "​a DevOps eng"/"yet another developer?";
+  }
+  86.7647058824%, 86.8181721133% {
+    content: "​a DevOps engi";
+    content: "​a DevOps engi"/"yet another developer?";
+  }
+  86.8191721133%, 86.8726383442% {
+    content: "​a DevOps engin";
+    content: "​a DevOps engin"/"yet another developer?";
+  }
+  86.8736383442%, 86.9271045752% {
+    content: "​a DevOps engine";
+    content: "​a DevOps engine"/"yet another developer?";
+  }
+  86.9281045752%, 86.9815708061% {
+    content: "​a DevOps enginee";
+    content: "​a DevOps enginee"/"yet another developer?";
+  }
+  86.9825708061%, 88.1689346405% {
+    content: "​a DevOps engineer";
+    content: "​a DevOps engineer"/"yet another developer?";
+  }
+  88.1699346405%, 88.2125076253% {
+    content: "​a DevOps enginee";
+    content: "​a DevOps enginee"/"yet another developer?";
+  }
+  88.2135076253%, 88.25608061% {
+    content: "​a DevOps engine";
+    content: "​a DevOps engine"/"yet another developer?";
+  }
+  88.25708061%, 88.2996535948% {
+    content: "​a DevOps engin";
+    content: "​a DevOps engin"/"yet another developer?";
+  }
+  88.3006535948%, 88.3432265795% {
+    content: "​a DevOps engi";
+    content: "​a DevOps engi"/"yet another developer?";
+  }
+  88.3442265795%, 88.3867995643% {
+    content: "​a DevOps eng";
+    content: "​a DevOps eng"/"yet another developer?";
+  }
+  88.3877995643%, 88.430372549% {
+    content: "​a DevOps en";
+    content: "​a DevOps en"/"yet another developer?";
+  }
+  88.431372549%, 88.4739455338% {
+    content: "​a DevOps e";
+    content: "​a DevOps e"/"yet another developer?";
+  }
+  88.4749455338%, 88.5175185185% {
+    content: "​a DevOps ";
+    content: "​a DevOps "/"yet another developer?";
+  }
+  88.5185185185%, 88.5610915033% {
+    content: "​a DevOps";
+    content: "​a DevOps"/"yet another developer?";
+  }
+  88.5620915033%, 88.604664488% {
+    content: "​a DevOp";
+    content: "​a DevOp"/"yet another developer?";
+  }
+  88.605664488%, 88.6482374728% {
+    content: "​a DevO";
+    content: "​a DevO"/"yet another developer?";
+  }
+  88.6492374728%, 88.6918104575% {
+    content: "​a Dev";
+    content: "​a Dev"/"yet another developer?";
+  }
+  88.6928104575%, 88.7353834423% {
+    content: "​a De";
+    content: "​a De"/"yet another developer?";
+  }
+  88.7363834423%, 88.778956427% {
+    content: "​a D";
+    content: "​a D"/"yet another developer?";
+  }
+  88.779956427%, 88.8225294118% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  88.8235294118%, 88.8661023965% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  88.8671023965%, 89.4107647059% {
+    content: "​";
+    content: "​"/"yet another developer?";
+  }
+  89.4117647059%, 89.4652309368% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  89.4662309368%, 89.5196971678% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  89.5206971678%, 89.5741633987% {
+    content: "​a c";
+    content: "​a c"/"yet another developer?";
+  }
+  89.5751633987%, 89.6286296296% {
+    content: "​a cl";
+    content: "​a cl"/"yet another developer?";
+  }
+  89.6296296296%, 89.6830958606% {
+    content: "​a clo";
+    content: "​a clo"/"yet another developer?";
+  }
+  89.6840958606%, 89.7375620915% {
+    content: "​a clou";
+    content: "​a clou"/"yet another developer?";
+  }
+  89.7385620915%, 89.7920283224% {
+    content: "​a cloud";
+    content: "​a cloud"/"yet another developer?";
+  }
+  89.7930283224%, 89.8464945534% {
+    content: "​a cloud ";
+    content: "​a cloud "/"yet another developer?";
+  }
+  89.8474945534%, 89.9009607843% {
+    content: "​a cloud e";
+    content: "​a cloud e"/"yet another developer?";
+  }
+  89.9019607843%, 89.9554270153% {
+    content: "​a cloud en";
+    content: "​a cloud en"/"yet another developer?";
+  }
+  89.9564270153%, 90.0098932462% {
+    content: "​a cloud eng";
+    content: "​a cloud eng"/"yet another developer?";
+  }
+  90.0108932462%, 90.0643594771% {
+    content: "​a cloud engi";
+    content: "​a cloud engi"/"yet another developer?";
+  }
+  90.0653594771%, 90.1188257081% {
+    content: "​a cloud engin";
+    content: "​a cloud engin"/"yet another developer?";
+  }
+  90.1198257081%, 90.173291939% {
+    content: "​a cloud engine";
+    content: "​a cloud engine"/"yet another developer?";
+  }
+  90.174291939%, 90.2277581699% {
+    content: "​a cloud enginee";
+    content: "​a cloud enginee"/"yet another developer?";
+  }
+  90.2287581699%, 91.4151220044% {
+    content: "​a cloud engineer";
+    content: "​a cloud engineer"/"yet another developer?";
+  }
+  91.4161220044%, 91.4586949891% {
+    content: "​a cloud enginee";
+    content: "​a cloud enginee"/"yet another developer?";
+  }
+  91.4596949891%, 91.5022679739% {
+    content: "​a cloud engine";
+    content: "​a cloud engine"/"yet another developer?";
+  }
+  91.5032679739%, 91.5458409586% {
+    content: "​a cloud engin";
+    content: "​a cloud engin"/"yet another developer?";
+  }
+  91.5468409586%, 91.5894139434% {
+    content: "​a cloud engi";
+    content: "​a cloud engi"/"yet another developer?";
+  }
+  91.5904139434%, 91.6329869281% {
+    content: "​a cloud eng";
+    content: "​a cloud eng"/"yet another developer?";
+  }
+  91.6339869281%, 91.6765599129% {
+    content: "​a cloud en";
+    content: "​a cloud en"/"yet another developer?";
+  }
+  91.6775599129%, 91.7201328976% {
+    content: "​a cloud e";
+    content: "​a cloud e"/"yet another developer?";
+  }
+  91.7211328976%, 91.7637058824% {
+    content: "​a cloud ";
+    content: "​a cloud "/"yet another developer?";
+  }
+  91.7647058824%, 91.8072788671% {
+    content: "​a cloud";
+    content: "​a cloud"/"yet another developer?";
+  }
+  91.8082788671%, 91.8508518519% {
+    content: "​a clou";
+    content: "​a clou"/"yet another developer?";
+  }
+  91.8518518519%, 91.8944248366% {
+    content: "​a clo";
+    content: "​a clo"/"yet another developer?";
+  }
+  91.8954248366%, 91.9379978214% {
+    content: "​a cl";
+    content: "​a cl"/"yet another developer?";
+  }
+  91.9389978214%, 91.9815708061% {
+    content: "​a c";
+    content: "​a c"/"yet another developer?";
+  }
+  91.9825708061%, 92.0251437908% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  92.0261437908%, 92.0687167756% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  92.0697167756%, 92.613379085% {
+    content: "​";
+    content: "​"/"yet another developer?";
+  }
+  92.614379085%, 92.6678453159% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  92.6688453159%, 92.7223115468% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  92.7233115468%, 92.7767777778% {
+    content: "​a d";
+    content: "​a d"/"yet another developer?";
+  }
+  92.7777777778%, 92.8312440087% {
+    content: "​a da";
+    content: "​a da"/"yet another developer?";
+  }
+  92.8322440087%, 92.8857102397% {
+    content: "​a dat";
+    content: "​a dat"/"yet another developer?";
+  }
+  92.8867102397%, 92.9401764706% {
+    content: "​a data";
+    content: "​a data"/"yet another developer?";
+  }
+  92.9411764706%, 92.9946427015% {
+    content: "​a datab";
+    content: "​a datab"/"yet another developer?";
+  }
+  92.9956427015%, 93.0491089325% {
+    content: "​a databa";
+    content: "​a databa"/"yet another developer?";
+  }
+  93.0501089325%, 93.1035751634% {
+    content: "​a databas";
+    content: "​a databas"/"yet another developer?";
+  }
+  93.1045751634%, 93.1580413943% {
+    content: "​a database";
+    content: "​a database"/"yet another developer?";
+  }
+  93.1590413943%, 93.2125076253% {
+    content: "​a database ";
+    content: "​a database "/"yet another developer?";
+  }
+  93.2135076253%, 93.2669738562% {
+    content: "​a database a";
+    content: "​a database a"/"yet another developer?";
+  }
+  93.2679738562%, 93.3214400871% {
+    content: "​a database ad";
+    content: "​a database ad"/"yet another developer?";
+  }
+  93.3224400871%, 93.3759063181% {
+    content: "​a database adm";
+    content: "​a database adm"/"yet another developer?";
+  }
+  93.3769063181%, 93.430372549% {
+    content: "​a database admi";
+    content: "​a database admi"/"yet another developer?";
+  }
+  93.431372549%, 93.48483878% {
+    content: "​a database admin";
+    content: "​a database admin"/"yet another developer?";
+  }
+  93.48583878%, 93.5393050109% {
+    content: "​a database admini";
+    content: "​a database admini"/"yet another developer?";
+  }
+  93.5403050109%, 93.5937712418% {
+    content: "​a database adminis";
+    content: "​a database adminis"/"yet another developer?";
+  }
+  93.5947712418%, 93.6482374728% {
+    content: "​a database administ";
+    content: "​a database administ"/"yet another developer?";
+  }
+  93.6492374728%, 93.7027037037% {
+    content: "​a database administr";
+    content: "​a database administr"/"yet another developer?";
+  }
+  93.7037037037%, 93.7571699346% {
+    content: "​a database administra";
+    content: "​a database administra"/"yet another developer?";
+  }
+  93.7581699346%, 93.8116361656% {
+    content: "​a database administrat";
+    content: "​a database administrat"/"yet another developer?";
+  }
+  93.8126361656%, 93.8661023965% {
+    content: "​a database administrato";
+    content: "​a database administrato"/"yet another developer?";
+  }
+  93.8671023965%, 95.0534662309% {
+    content: "​a database administrator";
+    content: "​a database administrator"/"yet another developer?";
+  }
+  95.0544662309%, 95.0970392157% {
+    content: "​a database administrato";
+    content: "​a database administrato"/"yet another developer?";
+  }
+  95.0980392157%, 95.1406122004% {
+    content: "​a database administrat";
+    content: "​a database administrat"/"yet another developer?";
+  }
+  95.1416122004%, 95.1841851852% {
+    content: "​a database administra";
+    content: "​a database administra"/"yet another developer?";
+  }
+  95.1851851852%, 95.2277581699% {
+    content: "​a database administr";
+    content: "​a database administr"/"yet another developer?";
+  }
+  95.2287581699%, 95.2713311547% {
+    content: "​a database administ";
+    content: "​a database administ"/"yet another developer?";
+  }
+  95.2723311547%, 95.3149041394% {
+    content: "​a database adminis";
+    content: "​a database adminis"/"yet another developer?";
+  }
+  95.3159041394%, 95.3584771242% {
+    content: "​a database admini";
+    content: "​a database admini"/"yet another developer?";
+  }
+  95.3594771242%, 95.4020501089% {
+    content: "​a database admin";
+    content: "​a database admin"/"yet another developer?";
+  }
+  95.4030501089%, 95.4456230937% {
+    content: "​a database admi";
+    content: "​a database admi"/"yet another developer?";
+  }
+  95.4466230937%, 95.4891960784% {
+    content: "​a database adm";
+    content: "​a database adm"/"yet another developer?";
+  }
+  95.4901960784%, 95.5327690632% {
+    content: "​a database ad";
+    content: "​a database ad"/"yet another developer?";
+  }
+  95.5337690632%, 95.5763420479% {
+    content: "​a database a";
+    content: "​a database a"/"yet another developer?";
+  }
+  95.5773420479%, 95.6199150327% {
+    content: "​a database ";
+    content: "​a database "/"yet another developer?";
+  }
+  95.6209150327%, 95.6634880174% {
+    content: "​a database";
+    content: "​a database"/"yet another developer?";
+  }
+  95.6644880174%, 95.7070610022% {
+    content: "​a databas";
+    content: "​a databas"/"yet another developer?";
+  }
+  95.7080610022%, 95.7506339869% {
+    content: "​a databa";
+    content: "​a databa"/"yet another developer?";
+  }
+  95.7516339869%, 95.7942069717% {
+    content: "​a datab";
+    content: "​a datab"/"yet another developer?";
+  }
+  95.7952069717%, 95.8377799564% {
+    content: "​a data";
+    content: "​a data"/"yet another developer?";
+  }
+  95.8387799564%, 95.8813529412% {
+    content: "​a dat";
+    content: "​a dat"/"yet another developer?";
+  }
+  95.8823529412%, 95.9249259259% {
+    content: "​a da";
+    content: "​a da"/"yet another developer?";
+  }
+  95.9259259259%, 95.9684989107% {
+    content: "​a d";
+    content: "​a d"/"yet another developer?";
+  }
+  95.9694989107%, 96.0120718954% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  96.0130718954%, 96.0556448802% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  96.0566448802%, 96.6003071895% {
+    content: "​";
+    content: "​"/"yet another developer?";
+  }
+  96.6013071895%, 96.6547734205% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  96.6557734205%, 96.7092396514% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  96.7102396514%, 96.7637058824% {
+    content: "​a s";
+    content: "​a s"/"yet another developer?";
+  }
+  96.7647058824%, 96.8181721133% {
+    content: "​a se";
+    content: "​a se"/"yet another developer?";
+  }
+  96.8191721133%, 96.8726383442% {
+    content: "​a sec";
+    content: "​a sec"/"yet another developer?";
+  }
+  96.8736383442%, 96.9271045752% {
+    content: "​a secu";
+    content: "​a secu"/"yet another developer?";
+  }
+  96.9281045752%, 96.9815708061% {
+    content: "​a secur";
+    content: "​a secur"/"yet another developer?";
+  }
+  96.9825708061%, 97.036037037% {
+    content: "​a securi";
+    content: "​a securi"/"yet another developer?";
+  }
+  97.037037037%, 97.090503268% {
+    content: "​a securit";
+    content: "​a securit"/"yet another developer?";
+  }
+  97.091503268%, 97.1449694989% {
+    content: "​a security";
+    content: "​a security"/"yet another developer?";
+  }
+  97.1459694989%, 97.1994357298% {
+    content: "​a security ";
+    content: "​a security "/"yet another developer?";
+  }
+  97.2004357298%, 97.2539019608% {
+    content: "​a security a";
+    content: "​a security a"/"yet another developer?";
+  }
+  97.2549019608%, 97.3083681917% {
+    content: "​a security an";
+    content: "​a security an"/"yet another developer?";
+  }
+  97.3093681917%, 97.3628344227% {
+    content: "​a security ana";
+    content: "​a security ana"/"yet another developer?";
+  }
+  97.3638344227%, 97.4173006536% {
+    content: "​a security anal";
+    content: "​a security anal"/"yet another developer?";
+  }
+  97.4183006536%, 97.4717668845% {
+    content: "​a security analy";
+    content: "​a security analy"/"yet another developer?";
+  }
+  97.4727668845%, 97.5262331155% {
+    content: "​a security analys";
+    content: "​a security analys"/"yet another developer?";
+  }
+  97.5272331155%, 98.7135969499% {
+    content: "​a security analyst";
+    content: "​a security analyst"/"yet another developer?";
+  }
+  98.7145969499%, 98.7571699346% {
+    content: "​a security analys";
+    content: "​a security analys"/"yet another developer?";
+  }
+  98.7581699346%, 98.8007429194% {
+    content: "​a security analy";
+    content: "​a security analy"/"yet another developer?";
+  }
+  98.8017429194%, 98.8443159041% {
+    content: "​a security anal";
+    content: "​a security anal"/"yet another developer?";
+  }
+  98.8453159041%, 98.8878888889% {
+    content: "​a security ana";
+    content: "​a security ana"/"yet another developer?";
+  }
+  98.8888888889%, 98.9314618736% {
+    content: "​a security an";
+    content: "​a security an"/"yet another developer?";
+  }
+  98.9324618736%, 98.9750348584% {
+    content: "​a security a";
+    content: "​a security a"/"yet another developer?";
+  }
+  98.9760348584%, 99.0186078431% {
+    content: "​a security ";
+    content: "​a security "/"yet another developer?";
+  }
+  99.0196078431%, 99.0621808279% {
+    content: "​a security";
+    content: "​a security"/"yet another developer?";
+  }
+  99.0631808279%, 99.1057538126% {
+    content: "​a securit";
+    content: "​a securit"/"yet another developer?";
+  }
+  99.1067538126%, 99.1493267974% {
+    content: "​a securi";
+    content: "​a securi"/"yet another developer?";
+  }
+  99.1503267974%, 99.1928997821% {
+    content: "​a secur";
+    content: "​a secur"/"yet another developer?";
+  }
+  99.1938997821%, 99.2364727669% {
+    content: "​a secu";
+    content: "​a secu"/"yet another developer?";
+  }
+  99.2374727669%, 99.2800457516% {
+    content: "​a sec";
+    content: "​a sec"/"yet another developer?";
+  }
+  99.2810457516%, 99.3236187364% {
+    content: "​a se";
+    content: "​a se"/"yet another developer?";
+  }
+  99.3246187364%, 99.3671917211% {
+    content: "​a s";
+    content: "​a s"/"yet another developer?";
+  }
+  99.3681917211%, 99.4107647059% {
+    content: "​a ";
+    content: "​a "/"yet another developer?";
+  }
+  99.4117647059%, 99.4543376906% {
+    content: "​a";
+    content: "​a"/"yet another developer?";
+  }
+  99.4553376906%, 100% {
+    content: "​";
+    content: "​"/"yet another developer?";
+  }
+}
+@keyframes typed-0-caret {
+  75% {
+    border-color: transparent;
+  }
+}

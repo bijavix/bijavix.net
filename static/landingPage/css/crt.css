@@ -1,0 +1,201 @@
+@keyframes flicker {
+  0% {
+    opacity: 0.9236560123;
+  }
+  5% {
+    opacity: 0.854579076;
+  }
+  10% {
+    opacity: 0.7608751504;
+  }
+  15% {
+    opacity: 0.2939797689;
+  }
+  20% {
+    opacity: 0.5278375749;
+  }
+  25% {
+    opacity: 0.5076566474;
+  }
+  30% {
+    opacity: 0.8583357795;
+  }
+  35% {
+    opacity: 0.0913989017;
+  }
+  40% {
+    opacity: 0.0581889637;
+  }
+  45% {
+    opacity: 0.7126748393;
+  }
+  50% {
+    opacity: 0.7899416149;
+  }
+  55% {
+    opacity: 0.5656850092;
+  }
+  60% {
+    opacity: 0.6648327834;
+  }
+  65% {
+    opacity: 0.3508913536;
+  }
+  70% {
+    opacity: 0.1740151891;
+  }
+  75% {
+    opacity: 0.5496274446;
+  }
+  80% {
+    opacity: 0.4025919847;
+  }
+  85% {
+    opacity: 0.8372084598;
+  }
+  90% {
+    opacity: 0.1112168745;
+  }
+  95% {
+    opacity: 0.8015409005;
+  }
+  100% {
+    opacity: 0.1739153608;
+  }
+}
+@keyframes turn-on {
+  0% {
+    transform: scale(1, 0.8) translate3d(0, 0, 0);
+    -webkit-filter: brightness(30);
+    filter: brightness(30);
+    opacity: 1;
+  }
+  3.5% {
+    transform: scale(1, 0.8) translate3d(0, 100%, 0);
+  }
+  3.6% {
+    transform: scale(1, 0.8) translate3d(0, -100%, 0);
+    opacity: 1;
+  }
+  9% {
+    transform: scale(1.3, 0.6) translate3d(0, 100%, 0);
+    -webkit-filter: brightness(30);
+    filter: brightness(30);
+    opacity: 0;
+  }
+  11% {
+    transform: scale(1, 1) translate3d(0, 0, 0);
+    -webkit-filter: contrast(0) brightness(0);
+    filter: contrast(0) brightness(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1, 1) translate3d(0, 0, 0);
+    -webkit-filter: contrast(1) brightness(1.2) saturate(1.3);
+    filter: contrast(1) brightness(1.2) saturate(1.3);
+    opacity: 1;
+  }
+}
+.crt-content p,
+.crt-content h1,
+.crt-content h2,
+.crt-content a {
+  filter: drop-shadow(0 0 3px rgba(255, 255, 255, 0.3));
+}
+
+.crt-container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.crt-container::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(24, 26, 27, 0.1);
+  background-size: 100% 2px, 3px 100%;
+  opacity: 0;
+  z-index: 2;
+  pointer-events: none;
+}
+.crt-container::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.crt-screen {
+  width: 85%;
+  height: 85%;
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.crt-screen .crt-content::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(24, 26, 27, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.04));
+  z-index: 2;
+  background-size: 100% 2px, 3px 100%;
+  pointer-events: none;
+  animation: turn-on 4s linear;
+  animation-fill-mode: forwards;
+}
+.crt-screen .crt-content::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(24, 26, 27, 0.1);
+  opacity: 0;
+  z-index: 2;
+  pointer-events: none;
+  animation: flicker 0.15s infinite;
+}
+
+.crt-content {
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.crt-content h1 {
+  color: #ffffff;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.crt-content .title-section {
+  margin-top: 2rem; /* Add top margin for "Who am I?" */
+}
+.crt-content .typewriter-section {
+  padding: 1rem 2rem; /* Add padding on both sides for typewriter content */
+  text-align: center;
+}
